@@ -5,15 +5,14 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
 	'Accounts' => 'Organizações', 
-	'SINGLE_Accounts'=> 'Organização' , 
+	'SINGLE_Accounts' => 'Organização' , 
 	'LBL_ADD_RECORD' => 'Adicionar Organização',
-	'LBL_RECORDS_LIST' => 'Listar Organizações' , 
-	'LBL_RECORD_SUMMARY' => 'Resumo Organização',
+	'LBL_RECORDS_LIST' => 'Lista Organizações' , 
 
 	// Blocks 
 	'LBL_ACCOUNT_INFORMATION' => 'Detalhes da Organização',
@@ -32,6 +31,9 @@ $languageStrings = array(
 	'Ownership'=> 'Propriedade' , 
 	'SIC Code' => 'Cod CNAE', 
 	'Other Email'=> 'Email Alternativo' ,
+	'Other Phone' => 'Telefone Alternativo',
+	'Phone' => 'Telefone',
+	'Email' => 'Email',
 
 	//Added for existing picklist entries
 
@@ -48,11 +50,18 @@ $languageStrings = array(
 
 	//Duplication error message
 	'LBL_DUPLICATES_EXIST' => 'O Nome da Organização já existe',
-	'LBL_COPY_SHIPPING_ADDRESS' => 'Copy Shipping Address',
-	'LBL_COPY_BILLING_ADDRESS' => 'Copy Billing Address',
+	'LBL_COPY_SHIPPING_ADDRESS' => 'Copiar Endereço Entrega',
+	'LBL_COPY_BILLING_ADDRESS' => 'Copiar Endereço Faturamento',
+
+	//Missing Fields in Right Bar | Valmir C Trindade
+	'Sales Order'=>'Pedido Vendas',
+	'Activities'=>'Atividades',
+	'Service Contracts'=>'Contratos Serviços',
+	'Projects'=>'Projetos',
 );
 
 $jsLanguageStrings = array(
-	'LBL_DELETE_CONFIRMATION'=> 'Ao apagar esta Organização serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que deseja apagar esta Organização?',
-	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar esta(s) Organização(ões) serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que deseja apagar o(s) registro(s) selecionado(s)?',
+	'LBL_RELATED_RECORD_DELETE_CONFIRMATION' => 'Tem certeza que deseja apagar?',
+	'LBL_DELETE_CONFIRMATION'=> 'Ao apagar esta Organização serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que certeza que deseja apagar esta Organização?',
+	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar esta(s) Organização(ões) serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que deseja apagar o(s) registro(s) selecionado(s)?'
 );

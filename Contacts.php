@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -13,7 +13,6 @@ $languageStrings = array(
 	'SINGLE_Contacts'=> 'Contato' , 
 	'LBL_ADD_RECORD' => 'Adicionar Contato' , 
 	'LBL_RECORDS_LIST' => 'Lista Contatos' , 
-	'LBL_RECORD_SUMMARY' => 'Resumo Contatos', 
 
 	// Blocks
 	'LBL_CONTACT_INFORMATION'=> 'Informação do Contato' , 
@@ -47,6 +46,9 @@ $languageStrings = array(
 	'Other Country'=> 'País Alternativo' , 
 	'Other PO Box' => 'Cx Postal Alternativo', 
 	'Contact Image'=> 'Imagem Contato',
+	'Other Phone' => 'Telefone Alternativo',
+	'Email' => 'Email',
+	'Secondary Email' => 'Email Alternativo',
 
 	//Added for Picklist Values
 	'Mr.'=> 'Sr.' , 
@@ -55,5 +57,19 @@ $languageStrings = array(
 	'Dr.'=> 'Dr.' , 
 	'Prof.'=> 'Prof.' ,
 
-	'User List'=> 'Lista Usuário', 
+	'User List'=> 'Lista Usuário',
+
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Sales Order'=>'Pedido Vendas',
+	'Activities'=>'Atividades',
+	'Service Contracts'=>'Contratos Serviços',
+	'Projects'=>'Projetos',
+	'Purchase Order'=>'Pedido Compras',
 );
+
+$jsLanguageStrings = array(
+        'LBL_SYNC_BUTTON' => 'Sincronizar Agora',
+        'LBL_SYNCRONIZING' => 'Sincronizando....',
+        'LBL_NOT_SYNCRONIZED' => 'Você ainda não sincronizou',
+        'LBL_FIELD_MAPPING' => 'Mapeamento Campo'
+ );

@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -13,19 +13,18 @@ $languageStrings = array(
 	'SINGLE_Potentials'=> 'Oportunidade', 
 	'LBL_ADD_RECORD' => 'Adicionar Oportunidade' ,
 	'LBL_RECORDS_LIST' => 'Lista Oportunidades',
-	'LBL_RECORD_SUMMARY' => 'Resumo Oportunidades' ,
 
 	// Blocks
 	'LBL_OPPORTUNITY_INFORMATION'=> 'Detalhes da Oportunidade',
 	
 	//Field Labels
 	'Potential No' => 'No. Oportunidade', 
-	'Amount' => 'Montante', 
+	'Amount' => 'Valor Fechamento', 
 	'Next Step'=> 'Próximo Passo', 
-	'Sales Stage'=> 'Estágio de Vendas', 
+	'Sales Stage'=> 'Estágio da Venda', 
 	'Probability'=> 'Probabilidade', 
 	'Campaign Source'=> 'Fonte Campanha', 
-	'Forecast Amount'=> 'Montante Previsto' ,
+	'Forecast Amount'=> 'Valor Previsto' ,
 	
 	//Dashboard widgets
 	'Funnel' => 'Funil de Vendas',
@@ -38,12 +37,12 @@ $languageStrings = array(
 
 	'Prospecting'=> 'Prospectando', 
 	'Qualification'=> 'Qualificação', 
-	'Needs Analysis' => 'Necessita Análise', 
+	'Needs Analysis' => 'Necessita Analise', 
 	'Value Proposition'=> 'Proposta Valor', 
-	'Id. Decision Makers'=> 'Identif. Decisor', 
-	'Perception Analysis'=> 'Análise Percepção', 
-	'Proposal/Price Quote' => 'Proposta/Cotação', 
-	'Negotiation/Review' => 'Negociação/Revisão' , 
+	'Id. Decision Makers'=> 'Idenf Decisor', 
+	'Perception Analysis'=> 'Analise Percepcao', 
+	'Proposal/Price Quote' => 'Proposta', 
+	'Negotiation/Review' => 'Negociacao' , 
 	'Closed Won' => 'Fechado Vencido' , 
 	'Closed Lost'=> 'Fechado Perdido' ,
 
@@ -51,4 +50,13 @@ $languageStrings = array(
 	'Existing Business'=> 'Negócio Existente', 
 	'New Business' => 'Novo Negócio' , 
 	'LBL_EXPECTED_CLOSE_DATE_ON' => 'Previsão fechamento em',
+	
+	//widgets headers
+	'LBL_RELATED_CONTACTS' => 'Contatos Relacionados',
+	'LBL_RELATED_PRODUCTS' => 'Produtos Relacionados',
+
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Activities'=>'Atividades',
+	'Sales Order'=>'Pedido Vendas',
+	'Is Converted From Lead'=>'Convertida a partir do Lead',
 );

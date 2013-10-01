@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -13,7 +13,6 @@ $languageStrings = array(
 	'SINGLE_Vendors' => 'Fornecedor', 
 	'LBL_ADD_RECORD' => 'Adicionar Fornecedor',
 	'LBL_RECORDS_LIST' => 'Lista Fornecedores',
-	'LBL_RECORD_SUMMARY' => 'Resumo Fornecedores' ,
 
 	// Blocks
 	'LBL_VENDOR_INFORMATION' => 'Detalhes do Fornecedor:', 
@@ -24,6 +23,8 @@ $languageStrings = array(
 	'Vendor No'=> 'Cod. Fornecedor' , 
 	'Website'=> 'Website' , 
 	'GL Account' => 'Conta Plano Contas',
+	'Phone' => 'Telefone',
+	'Email' => 'Email',
 	
 	//Added for existing Picklist entries
 
@@ -35,10 +36,14 @@ $languageStrings = array(
 	'305-Sales Other'=> '305-Outras Vendas' , 
 	'306-Internet Sales' => '306-Vendas Internet' , 
 	'307-Service-Hardware Labor' => '307-Serviço-Lab Hardware' , 
-	'308-Sales-Books'=> '308-Vendas-Livros' , 
+	'308-Sales-Books'=> '308-Vendas-Livros' ,
+
+	//Fields Missing Right Bar | Valmir C Trindade
+	'Purchase Order'=>'Pedido Compras',
 );
 
 $jsLanguageStrings = array(
+	'LBL_RELATED_RECORD_DELETE_CONFIRMATION' => 'tem certeza que deseja apagar?',
 	'LBL_DELETE_CONFIRMATION'=> 'Ao apagar este Fornecedor serão removidos os Pedidos de Compras relacionados. Tem certeza que deseja apagar este Fornecedor?',
-	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar este(s) Fornecedor(s) serão removidos os Pedidos de Compras relacionados. tem certeza que deseja apagar os Registros relacionados?',
+	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar este(s) Fornecedor(s) serão removidos os Pedidos de Compras relacionados. Tem certeza que deseja apagar os Registros selacionados?',
 );

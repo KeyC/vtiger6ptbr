@@ -5,15 +5,14 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 29/03/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
-	'Products' => 'Produto' , 
+	'Products' => 'Produtos' , 
 	'SINGLE_Products'=> 'Produto' , 
 	'LBL_ADD_RECORD' => 'Adicionar Produto' ,
 	'LBL_RECORDS_LIST' => 'Lista de Produtos' ,
-	'LBL_RECORD_SUMMARY' => 'Resumo Produtos',
 
 	// Blocks
 	'LBL_PRODUCT_INFORMATION'=> 'Detalhes do Produto', 
@@ -45,7 +44,7 @@ $languageStrings = array(
 	'Serial No'=> 'No. Série', 
 	'Qty In Stock' => 'Qde. em Estoque' , 
 	'Product Sheet'=> 'Ficha do Produto', 
-	'Qty In Demand'=> 'Qde. Comprada' , 
+	'Qty In Demand'=> 'Qde. Última Compra' , 
 	'GL Account' => 'Conta Plano Contas', 
 	'Product Image'=> 'Imagem Produto', 
 	'Unit Price' => 'Preço Unitário', 
@@ -74,7 +73,7 @@ $languageStrings = array(
 	'Carton' => 'Cartão' , 
 	'Caton'=> '', 
 	'Dozen'=> 'Dz', 
-	'Each' => 'Cada', 
+	'Each' => 'Un', 
 	'Hours'=> 'Hora', 
 	'Impressions'=> 'Impressão', 
 	'Lb' => 'Lb', 
@@ -89,4 +88,10 @@ $languageStrings = array(
 	
 	'LBL_ADD_TO_PRICEBOOKS' => 'Adicionar na Lista de Preços',
 	'LBL_CONVERSION_RATE' => 'Taxa Conversão',
+
+	//Fields Missing Right Bar | Valmir C Trindade
+	'Sales Order'=>'Pedido Vendas',
+	'Purchase Order'=>'Pedido Compras',
+	'Product Bundles'=>'Produto Composto',
+	'Parent Product'=>'Produto Principal',
 );

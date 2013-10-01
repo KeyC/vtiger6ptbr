@@ -6,17 +6,16 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
-	'ServiceContracts' => 'Contratos Serviços' , 
-	'SINGLE_ServiceContracts'=> 'Contrato Serviço' , 
-	'LBL_ADD_RECORD' => 'Adicionar Contrato Serviços',
-	'LBL_RECORDS_LIST' => 'Lista Contratos Serviços',
-	'LBL_RECORD_SUMMARY' => 'Resumo Contratos Serviços' ,
+	'ServiceContracts' => 'Contratos' , 
+	'SINGLE_ServiceContracts'=> 'Contrato' , 
+	'LBL_ADD_RECORD' => 'Adicionar Contrato',
+	'LBL_RECORDS_LIST' => 'Lista Contratos',
 	// Blocks
-	'LBL_SERVICE_CONTRACT_INFORMATION' => 'Detalhes do Contrato Serviço',
+	'LBL_SERVICE_CONTRACT_INFORMATION' => 'Detalhes do Contrato',
 	
 	//Field Labels
 	'Contract No'=> 'No. Contrato', 
@@ -27,5 +26,11 @@ $languageStrings = array(
 	'Used Units' => 'Unidades Utilizadas' , 
 	'Progress' => 'Progresso', 
 	'Planned Duration' => 'Duração Planejada (em Dias)', 
-	'Actual Duration'=> 'Duração Atual (em Dias)' , 
+	'Actual Duration'=> 'Duração Atual (em Dias)',
+
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Service Requests'=>'Solicitação Serviço',
+	'Related to'=>'Relacionado a',
+	'Due date'=>'Data vencimento',
+	'Service Contracts' => 'Contratos' , 
 );

@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	'LBL_IMPORT_STEP_1'=> 'Passo 1',
@@ -28,7 +28,7 @@ $languageStrings = array(
 	'LBL_IMPORT_STEP_4'=> 'Passo 4',
 	'LBL_IMPORT_STEP_4_DESCRIPTION' => 'Mapear as Colunas para o Campos do Módulo',
 	'LBL_FILE_COLUMN_HEADER' => 'Cabeçalho',
-	'LBL_ROW_1'=> 'Linha 1' ,
+	'LBL_ROW_1' => 'Linha 1' ,
 	'LBL_CRM_FIELDS' => 'Campos CRM',
 	'LBL_DEFAULT_VALUE'=> 'Valor Padrão' ,
 	'LBL_SAVE_AS_CUSTOM_MAPPING' => 'Salvar como Mapeamento Customizado ' ,
@@ -66,5 +66,8 @@ $languageStrings = array(
 	'LBL_NO_ROWS_FOUND' => 'Nenhuma linha foi encontrada',
 	'LBL_SCHEDULED_IMPORT_DETAILS' => 'Sua importação está sendo agendada e iniciará dentro de 15 minutos. Você receberá um email assim que a importação estiver concluída.  <br> <br>
 										Por gentileza, certifique-se de que o Servidor de Envio de Mensagens e seu endereço de email estão devidamente configurados para receber a notificação.',
+	'LBL_DETAILS' => 'Detalhes',
+	'skipped' => 'Registros Ignorados',
+	'failed' => 'Registros Falhos',
 	
 );

@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
-* Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 
 /* NOTE: Should be inline with Calendar language translation but few variations */
@@ -16,10 +16,9 @@ $languageStrings = array(
 	'SINGLE_Events'=> 'Evento', 
 	'LBL_ADD_RECORD' => 'Adicionar Evento' ,
 	'LBL_RECORDS_LIST' => 'Lista Visualização' ,
-	'LBL_RECORD_SUMMARY' => 'Resumo Eventos',
 	'LBL_EVENTS' => 'Eventos' ,
 	'LBL_TODOS'=> 'Compromisso' ,
-	'LBL_HOLD_FOLLOWUP_ON' => 'Aguardar Followup em',
+	'LBL_HOLD_FOLLOWUP_ON' => 'Realizar Followup em',
 	
 	// Blocks
 	'LBL_EVENT_INFORMATION'=> 'Detalhes Evento' ,
@@ -47,8 +46,8 @@ $languageStrings = array(
 	
 	//Status picklist values
 	'Planned'=> 'Planejado' , 
-	'Held' => 'Confirmado', 
-	'Not Held' => 'Não Confirmado' ,
+	'Held' => 'Realizado', 
+	'Not Held' => 'Não Realizado' ,
 
 	//Reminder Labels
 	'LBL_DAYS' => 'Dias',

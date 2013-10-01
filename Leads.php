@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -13,7 +13,6 @@ $languageStrings = array(
 	'SINGLE_Leads' => 'Lead', 
 	'LBL_RECORDS_LIST' => 'Lista Leads',
 	'LBL_ADD_RECORD' => 'Adicionar Lead',
-	'LBL_RECORD_SUMMARY' => 'Resumo Leads' ,
 
 	// Blocks
 	'LBL_LEAD_INFORMATION' => 'Informação Lead' ,
@@ -26,6 +25,9 @@ $languageStrings = array(
 	'Industry' => 'Atividade' , 
 	'Lead Status'=> 'Status Lead' , 
 	'No Of Employees'=> 'No. Empregados',
+	'Phone' => 'Telefone',
+	'Secondary Email' => 'Email Alternativo',
+	'Email' => 'Email',
 
 	//Added for Existing Picklist Entries
 
@@ -58,14 +60,17 @@ $languageStrings = array(
 	'LBL_CONVERT_LEAD_ERROR_TITLE' => 'Módulos Desabilitados',
 	'CANNOT_CONVERT' => 'Não pode ser Convertido', 
 	'LBL_FOLLOWING_ARE_POSSIBLE_REASONS' => 'Possíveis razões:', 
-	'LBL_LEADS_FIELD_MAPPING_INCOMPLETE' => 'Todos os campos obrigatórios não são mapeados', 
-	'LBL_MANDATORY_FIELDS_ARE_EMPTY' => 'Alguns dos valores dos campos obrigatórios estão vazios', 
+	'LBL_LEADS_FIELD_MAPPING_INCOMPLETE' => 'O mapeamento dos campos do Lead está incompleto (Configurações > Gerenciador Módulo > Leads > Mapeamento Campo Leads)', 
+	'LBL_MANDATORY_FIELDS_ARE_EMPTY' => 'Campos obrigatórios estão vazios', 
 	'LBL_LEADS_FIELD_MAPPING'=> 'Mapeamento Campos Lead',
 
 	//Leads Custom Field Mapping
 	'LBL_CUSTOM_FIELD_MAPPING' => 'Editar Mapeamento Campo',
 	'LBL_WEBFORMS' => 'Configurar Webforms',
-	'LBL_LEAD_SOURCE'=> 'Fonte Lead'
+	'LBL_LEAD_SOURCE'=> 'Fonte Lead',
+
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Activities'=>'Atividades',
 );
 $jsLanguageStrings = array(
 	'JS_SELECT_CONTACTS' => 'Selecionar Contatos para prosseguir',

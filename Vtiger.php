@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 
@@ -16,7 +16,8 @@ $languageStrings = array(
 	'LBL_PRIVACY_POLICY' => 'Política de Privacidade',
 
 	// Common Actions
-	'LBL_SELECT_ALL' => 'Selecionar Tudo' , 
+	'LBL_SELECT_ALL' => 'Selecionar Tudo' ,
+	'LBL_SELECT_TO_LOAD_LIST' => 'Selecione Carregar Lista',
 	'LBL_CREATING_NEW' => 'Nova Criação',
 	'LBL_EDITING'=> 'Editando', 
 	'LBL_SAVE' => 'Salvar',
@@ -38,6 +39,7 @@ $languageStrings = array(
 	'LBL_EDIT_MAILSCANNER' => 'Converter Emails',
 	'LBL_RECORD_DELETE'=> 'O registro que você está tentando visualizar foi apagado.', 
 	'LBL_RECORD_NOT_FOUND' => 'Os registros que você está tentando acessar não foram econtrados', 
+	'LBL_EDIT_REASON' => 'Editar razão',
 
 	//'LBL_EDIT_CURRENT_FILTER' => 'Edit Current Filter',
 	//'LBL_DELETE_CURRENT_FILTER' => 'Delete Current Filter',
@@ -77,9 +79,11 @@ $languageStrings = array(
 	'LBL_MY_PREFERENCES' => 'Minhas Preferências', 
 	'LBL_SIGN_OUT' => 'Desconectar' ,
 	'LBL_HELP' => 'Ajuda' ,
+	'LBL_DOCUMENTATION' => 'Documentação',
+	'LBL_VIDEO_TUTORIAL' => 'Tutorial Vídeo',
 	'LBL_FEEDBACK' => 'Feedback', 
 	'LBL_CRM_SETTINGS' => 'Configurações CRM' ,
-	'LBL_ON_DEMAND_ADMIN' => 'Adionar / Apagar Usuários',
+	'LBL_ON_DEMAND_ADMIN' => 'Adicionar / Excluir Usuários',
 	'LBL_ANNOUNCEMENT' => 'Anúncios',
 	'LBL_CALENDAR' => 'Agenda',
 	'LBL_POST' => 'Postar',
@@ -88,6 +92,10 @@ $languageStrings = array(
 	'LBL_DISPLAY_WIDETYPE' => 'Largo',
 	'LBL_DISPLAY_MEDIUMTYPE' => 'Médio',
 	'LBL_DISPLAY_NARROWTYPE' => 'Estreito',
+	'LBL_TAG_THIS_RECORD' => 'Etiquetar este Registro',
+	'LBL_PAGE' => 'Página',
+	'LBL_LISTVIEW_PAGE_JUMP' => 'Ir para Página',
+	'LBL_PROFILE_PASSWORD' => 'Perfil / Senha',
 
 	// Common Fields
 	'LBL_USER' => 'Usuário',
@@ -101,16 +109,18 @@ $languageStrings = array(
 	//Loading Labels
 	'LBL_LOADING'=> 'Carregando...' , 
 	'LBL_LOADING_WIDGET' => 'Carregando Widget',
-	'LBL_LOADING_LISTVIEW_CONTENTS' => 'Carregando, por favor, aguarde.' ,
+	'LBL_LOADING_LISTVIEW_CONTENTS' => 'Carregando ... por favor, aguarde.' ,
 
 	// Detail View
 	'LBL_UPDATES'=> 'Atualizações' ,
-	'LBL_COMPLETE_DETAILS' => 'Mostrar Detalhes',
+	'LBL_SHOW_FULL_DETAILS' => 'Exibir Detalhes Completos',
 	'LBL_SUMMARY_DETAILS'=> 'Detalhes Resumido' ,
 	'LBL_ADD_NEW_COMMENT'=> 'Adicionar Novo Comentário' ,
 	'LBL_NO_UPDATES' => 'Nenhuma Atualização',
 	'LBL_ACTIVITIES' => 'Atividades',
 	'LBL_NO_PENDING_ACTIVITIES' => 'Nenhuma atividade pendente',
+	'LBL_SUMMARY' => 'Resumo',
+	'LBL_DETAILS' => 'Detalhes',
 
 	// Popup window
 	'LBL_SEARCH_FOR' => 'Pesquisar por' , 
@@ -119,6 +129,7 @@ $languageStrings = array(
 	'LBL_SEARCH_BUTTON'=> 'Botão Pesquisa' ,
 	'LBL_ADVANCE_SEARCH' => 'Pesquisa Avançada',
 	'LBL_LOADING_PLEASE_WAIT'=> 'Carregando, por favor, aguarde.' ,
+	'LBL_PLEASE_SELECT_MODULE' => 'Por favor, selecione o módulo',
 
 	//DropDown Category
 	'LBL_USERS'=> 'Usuários' ,
@@ -130,6 +141,7 @@ $languageStrings = array(
 
 	//Recent Comments
 	'LBL_ADD_YOUR_COMMENT_HERE'=> 'Adicionar seu comentário aqui...',
+	'LBL_REASON_FOR_CHANGING_COMMENT' => 'Motivo para mudar o comentário',
 	'LBL_REPLY'=> 'Responder' ,
 	'LBL_VIEW_THREAD'=> 'Visualizar Tópico' ,
 	'LBL_NO_COMMENTS'=> 'Sem Comentários' ,
@@ -158,19 +170,23 @@ $languageStrings = array(
 	'PurchaseOrder'=> 'Pedidos Compra' , 
 	'SalesOrder' => 'Pedidos Venda', 
 	'Invoice'=> 'Faturas',
+	'MailManager' => 'Gestor Mensagens',
 
 
 	//Basic String Translation
 	'LBL_ADD_RECORD' => 'Adicionar Registro',
-	'LBL_RECENTLY_MODIFIED'=> 'Modificações Recentes' ,
+	'LBL_RECENTLY_MODIFIED'=> 'Últimas Alterações' ,
 	'LBL_RECORDS_LIST' => 'Lista Registros',
 	'LBL_RECORD_SUMMARY' => 'Resumo Módulo',
+	'LBL_RECORD_DETAILS' => 'Detalhes Módulo', // String original: 'LBL_RECORD_SUMMARY'=> 'Module Details',
 	'LBL_ACCESS_DENIED_FOR'=> 'Acesso Negado para' ,
 	'LBL_GO_BACK'=> 'Voltar', 
 	'LBL_NO_DATA_AVAILABLE'=> 'Nenhum dado disponível' ,
 
 	// Global Search
-	'LBL_GLOBAL_SEARCH'=> 'Digite uma palavra chave e pressione Enter',
+	'LBL_GLOBAL_SEARCH'=> 'Digite palavra chave e pressione Enter',
+	'LBL_ALL_RECORDS' => 'Todos os Registros',
+	'LBL_NO_RECORDS_FOUND' => 'Nenhum registro encontrado',
 
 	//Filters & Advance Filter
 	'LBL_AND'=> 'e' ,
@@ -199,7 +215,7 @@ $languageStrings = array(
 	'LBL_ALL_CONDITIONS' => 'Todas as Condições',
 	'LBL_ALL_CONDITIONS_DESC'=> 'Todas as condições devem ser satisfeitas',
 	'LBL_ANY_CONDITIONS' => 'Quaisquer Condições',
-	'LBL_ANY_CONDITIONS_DESC'=> 'Ao menos uma das condições devem ser satisfeita',
+	'LBL_ANY_CONDITIONS_DESC'=> 'Ao menos uma das condições deve ser satisfeita',
 	'LBL_SELECT_FIELD' => 'Selecionar Campo',
 	'LBL_SELECT_MODULE'=> 'Selecionar Módulo' ,
 	'LBL_CREATE_NEW_FILTER'=> 'Criar Novo Filtro' ,
@@ -225,8 +241,8 @@ $languageStrings = array(
 	'LBL_GROUP' => 'Grupo',
 	'LBL_TOOLS'=> 'Ferramentas' , 
 	'LBL_ITEM_NAME'=> 'Nome do Item', 
-	'LBL_QTY_IN_STOCK' => 'Qde em Estoque', 
-	'LBL_QTY'=> 'Qde' , 
+	'LBL_QTY_IN_STOCK' => 'Estoque', 
+	'LBL_QTY'=> 'Quantidade' , 
 	'LBL_LIST_PRICE' => 'Lista de Preço' , 
 	'LBL_TOTAL'=> 'Total' , 
 	'LBL_NET_PRICE'=> 'Preço Líquido' , 
@@ -236,7 +252,8 @@ $languageStrings = array(
 	'LBL_ADD_PRODUCT'=> 'Adicionar Produto' , 
 	'LBL_ADD_SERVICE'=> 'Adicionar Serviço',
 	'LBL_ITEMS_TOTAL' => 'Items Total',
-	'LBL_SHIPPING_AND_HANDLING_CHARGES' => 'Frete' , 
+	'LBL_SHIPPING_AND_HANDLING_CHARGES' => 'Frete' ,
+	'LBL_PRE_TAX_TOTAL' => 'Total Antes Imposto',
 	'LBL_TAX_FOR_SHIPPING_AND_HANDLING' => 'Impostos s/ Frete' , 
 	'LBL_SET_SHIPPING_AND_HANDLING_TAXES_FOR' => 'Definir Imposto Frete para' ,
 	'LBL_ADJUSTMENT' => 'Ajuste', 
@@ -264,6 +281,7 @@ $languageStrings = array(
 	'LBL_CREATE' => 'Criar' , 
 	'LBL_GENERATE' => 'Gerar' , 
 	'LBL_DUPLICATE'=> 'Duplicar',
+	'Add Note' => 'Adicionar Documento',
 
 	//Dashboard String
 	'LBL_ADD_WIDGET' => 'Adicionar Widget',
@@ -286,7 +304,7 @@ $languageStrings = array(
 	'LBL_REMOVED'=> 'removido' ,
 	'LBL_REMOVE' => 'Remover',
 	'LBL_AT' => 'em',
-	'LBL_MINE' => 'Meu',
+	'LBL_MINE' => 'Minha(s)',
 	'History'=> 'Histórico',
 	'Upcoming Tasks' => 'Próximas Tarefas',
 	'LBL_YEAR' => 'ano',
@@ -304,7 +322,7 @@ $languageStrings = array(
 	'LBL_JUSTNOW'=> 'agora',
 	'LBL_CUSTOM_INFORMATION' => 'Informação Customizada', 
 	'LBL_NO_RECENT_UPDATES'=> 'Nenhuma atualização recente' ,
-	'LBL_NO_DATA'=> 'Nenhum dado', 
+	'LBL_NO_DATA'=> 'Nenhum dado',
 	'LBL_PERMISSION_DENIED'=> 'Permissão negada' ,
 	'LBL_HANDLER_NOT_FOUND'=> 'Nenhum Almoxarife encontrado' ,
 	'LBL_FILTER' => 'Filtro',
@@ -318,6 +336,14 @@ $languageStrings = array(
 	'LBL_NO_SCHEDULED_ACTIVITIES'=> 'Nenhuma atividade agendada' ,
 	'LBL_NO_OVERDUE_ACTIVITIES'=> 'Nenhuma atividade atrasada' ,
 	'LBL_NO_UPDATES_OR_COMMENTS' => 'Nenhuma atualização ou comentário',
+	'LBL_MINI_LIST' => 'Mini Lista',
+	'LBL_NOTEPAD' => 'Bloco de Notas',
+	'LBL_NOTEPAD_NAME' => 'Nome Bloco Notas',
+	'LBL_NOTEPAD_CONTENT' => 'Conteúdo Bloco Notas',
+	'LBL_LAST_SAVED_ON' => 'Última salvo em',
+	'Mini List' => 'Mini Lista',
+	'Notebook' => 'Bloco de Notas',
+	'LBL_RESULT_FOR_THE_TAG' => 'Resultados para etiqueta',
 
 	// Basic Strings- custom view
 	'LBL_VIEW_NAME'=> 'Visualizar Nome' ,
@@ -379,11 +405,14 @@ $languageStrings = array(
 	'LBL_BEFORE' => 'antes',
 	'LBL_AFTER' => 'depois',
 	'LBL_BETWEEN' => 'entre',
+	'LBL_IS_EMPTY'=> 'vazio',
 
 	//Detail view summary widgets
 	'LBL_OWNER'=> 'Proprietário' ,
 	'LBL_CREATED_ON' => 'Criado em',
 	'LBL_MODIFIED_ON'=> 'Modificado em' ,
+	'LBL_MODIFIED' => 'Modificado',
+	'LBL_COMMENTED' => 'Comentado',
 
     //calender set-reminder
 	'LBL_BEFORE_EVENT' => 'Evento Anterior' ,
@@ -404,6 +433,7 @@ $languageStrings = array(
 	'Leads by Industry'=> 'Leads por Atividade' ,
 	'Tickets by Status' => 'Tickets por Status',
 	'Open Tickets' => 'Tickets Abertos',
+	'Funnel Amount' => 'Valor Total por Estágio de Vendas',
 
 	//Exports strings
 	'LBL_EXPORT_ALL_DATA'=> 'Exportar todos os dados' ,
@@ -520,10 +550,7 @@ $languageStrings = array(
 
 	'Due Date' => 'Vencimento', 
 	'Due Date & Time'=> 'Data & Hora Vencimento' ,
-	'Email'=> 'Email Principal' , 
-	'Secondary Email'=> 'Email Secundário' ,
-	'Other Email'=> 'Email Alternativo' ,
-	'Email Opt Out'=> 'Recusa E-mail' ,
+	'Email Opt Out' => 'Recusa Email',
  
 	'Expected Close Date'=> 'Previsão Fechamento', 
 
@@ -576,8 +603,6 @@ $languageStrings = array(
 	'Mobile' => 'Celular' ,
  
 	'Notify Owner' => 'Notificar Proprietário' , 
-	'Other Phone'=> 'Telefone Alternativo', 
-	'Phone'=> 'Telefone',
 
 	'State'=> 'Estado', 
 	'Po Box' => 'Cx Postal',
@@ -602,9 +627,15 @@ $languageStrings = array(
 
 	//Dashboard list of widgets translation
 	'Open Ticktes' => 'Tickets Abertos',
+	'LBL_SELECT_STATUS' => 'Selecionar Status',
+	'LBL_BLANK' => '-Em branco-',
 
 	//PageTitle translations
-	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM Software Livre Honesto',
+	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM',
+
+	//Translations used in inventory modules for sopy address
+	'SINGLE_Accounts' => 'Organização',
+	'SINGLE_Contacts' => 'Contato',
 
 	//Weekdays in 3 letters translations
 	'LBL_Sun' => 'Dom',
@@ -635,6 +666,105 @@ $languageStrings = array(
 	'SINGLE_Accounts' => 'Organização',
 	'SINGLE_Contacts' => 'Contato',
 	'HelpDesk' => 'Tickets',
+	'LBL_TAG_CLOUD' => 'Tag Cloud',
+
+	'LBL_NO_RECORDS' => 'Nenhum Registro',
+	'LBL_NO_RELATED' => 'Nenhum Relacionado',
+	'LBL_GLOBAL_SEARCH_MAX_MESSAGE' => 'Somente os primeiros 100 resultados de todos os módulos serão exibidos abaixo. Para resultados específicos do módulo, por favor, selecione o respectivo módulo e pesquisa',
+	'LBL_GLOBAL_SEARCH_MAX_MESSAGE_FOR_MODULE' => 'Somente os primeiros 100 resultados serão exibidos abaixo. Por favor, faça uma Pesquisa Avançada se você não está satisfeito com o resultado',
+
+	// used in reports detail view
+	'LBL ACTION' => 'Ação',
+	'LBL_NOTE' => 'Nota',
+	'LBL_SELECT_OPTION' => 'Selecionar uma Opção',
+
+	//Module Manager
+	'LBL_TOOLTIP' => 'Gestão Dicas de Contexto',
+	'LBL_MODULE_SEQUENCE_NUMBERING' => 'Numeração Sequência Módulo',
+	'LBL_CUSTOM_FIELD_MAPPING' => 'Mapeamento Campo Customizado',
+	'LBL_WEBFORMS' => 'WebForms',
+	
+	//Compose Email Strings
+	'SINGLE_Emails' => 'Email',
+	'Emails' => 'Emails',
+	'LBL_SELECT_EMAIL_IDS' => 'Selecionar Endereços de Email',
+	'LBL_SUBJECT' => 'Assunto',
+	'LBL_ATTACHMENT' => 'Anexo',
+	'LBL_BROWSE_CRM' => 'Localizar CRM',
+	'LBL_SEND' => 'Enviar',
+	'LBL_SAVE_AS_DRAFT' => 'Salvar como Rascunho',
+	'LBL_GO_TO_PREVIEW' => 'Ir para Visualização',
+	'LBL_SELECT_EMAIL_TEMPLATE' => 'Selecionar Modelo Email',
+	'LBL_COMPOSE_EMAIL' => 'Novo Email',
+	'LBL_TO' => 'Para',
+ 	'LBL_CC' => 'Cc',
+   	'LBL_BCC' => 'Bcc',
+   	'LBL_ADD_CC' => 'Adicionar Cc',
+   	'LBL_ADD_BCC' => 'Adicionar Bcc',
+	'LBL_MAX_UPLOAD_SIZE' => 'Tamanho máximo de upload é',
+	'LBL_EXCEEDED' => 'Excedido',
+	'LBL_OPERATION_NOT_PERMITTED' => 'Operação não permitida',
+    'LBL_MERGE' => 'Mesclar',
+	'LBL_FIND_DUPLICATES' => 'Localizar Duplicados',
+	'LBL_MERGING_CRITERIA_SELECTION' => 'Selecionar Critérios Mesclagem',
+	'LBL_AVAILABLE_FIELDS' => 'Campos Disponíveis',
+	'LBL_MERGE_RECORDS_DESCRIPTION' => 'O registro original será mantido após mesclagem. Você pode selecionar a coluna para manter o valor.
+										O outro registro será excluído, mas a informação relacionada será mesclada.',
+	'LBL_MERGE_RECORDS_IN' => 'Mesclar Registros em',
+	'LBL_FIELDS' => 'Campos',
+	'LBL_RECORD' => 'Registro',
+	'LBL_NO_DUPLICATED_FOUND' => 'Nenhuma registro duplicado sof encontrado',
+	'LBL_MERGE_SELECT' => 'Selecionar Mesclagem',
+
+	'Dear_Admin_tasks_not_been_completed' => 'Caro Admin,<br><br> Por favor, observe que existem algumas tarefas no Sistema que não foram concluídas após 24 horas depois de criadas<br>',
+	'LBL_ASSIGNED_TO' => 'Atribuída a',
+	'Task_sign'=>'Obrigado<br>Equipe Atendimento<br>',
+	'Task_Not_completed' => 'Tarefa não concluída',
+	'Dear_Team' => 'Prezada Equipe,<br>',
+	'Dear_Team_Time_to_Party' => '<br>Parabéns!É um momento de Festa! <br>Nós fechamos negócios acima de 10.000!!!!<br> É hora de festejarmos!<br>',
+	'Task_Not_completed' => 'Tarefa não concluída',
+	'Too_many_pending_tickets' => 'Muitos Tichets pendentes',
+	'Dear_Admin_too_many_tickets_pending' => 'Caro Admin,<br> Informo que existem muitos Tickets pendentes. Por gentileza, tome as medidas necessárias para resolve-los<br><br> Obrigado,<br> Equipe Atendimento<br>',
+	'Potential_Id' => 'Id Oportunidade:',
+	'Potential_Name' => 'Nome Oportunidade:',
+	'Big_Deal_Closed_Successfully' => 'Grande Negócio Fechado com Sucesso',
+	'Pending_Ticket_notification' => 'Notificação de Ticket Pendente',
+	'Kind_Attention' => 'Caro Admin,<br> Esta notificação é para chamar sua atenção para o número de ticket ',
+	'Thank_You_HelpDesk' => ' ainda está por ser fechado<br> Obrigado,<br> Equipe Atendimento<br>',
+	'Support_starting' => 'Início Suporte',
+	'Hello_Support' => 'Olá! Inicio Suporte em',
+	'Congratulations' => 'Parabéns! Seu suporte inicia a partir de hoje',
+	'Support_Ending_Subject' => 'Reg: Final Suporte',
+	'Support_Ending_Content' => 'Caro Admin,<br><br> Esta notificação tem como objetivo informar-lhe que a Data de Suporte para o produto <b>',
+	'kindly_renew' => '</b> terminará em breve. Por gentileza, renove seu Suporte.<br><br>Cordialmente,<br>Equipe Atendimento<br>',
+
+	// webservices language app_strings
+	'Groups'=>'Grupos',
+	'DocumentFolders'=>'Pastas Documentos',
+	'SINGLE_Groups'=>'Grupo',
+	'SINGLE_DocumentFolders'=>'Pasta Documento',
+	'SINGLE_Currency'=>'Moeda',
+	
+	//Report Detail View
+	'LBL_VIEW_DETAILS' => 'Visualizar Datalhes',
+
+//Missing fields
+	'PickListDependency'=>'Dependência Lista Opções',
+	'Users'=>'Usuários',
+	'SMSNotifier'=>'Notificador SMS',
+	'Key Metrics'=>'Métricas Chave',
+	'Recicle Bin'=>'Lixeira',
+	'generalFields' => 'Outros Campos',
+	'Service No'=>'Cod. Serviço',
+	'Service Name'=>'Nome Serviço',
+	'Price'=>'Preço',
+	'Usage Unit'=>'Unidade Utilizada',
+	'Service Active'=>'Serviço Ativo',
+	'No of Units'=>'No. Unidades',
+	'Service Category'=>'Categoria Serviço',
+	'Owner'=>'Proprietário',
+	'Commission Rate'=>'Percentual Comissão',
+	'Tax Class'=>'Categoria Imposto',
 );
 
 $jsLanguageStrings = array(
@@ -650,12 +780,15 @@ $jsLanguageStrings = array(
 	'JS_VALUE_SHOULD_BE_GREATER_THAN_ZERO' => 'o valor deve ser maior que zero',
 	'JS_NUMBER_SHOULD_BE_LESS_THAN_32' => 'O número deve ser menor que 32',
 	'JS_PLEASE_ENTER_VALID_DATE' => 'Por favor, digite uma data válida',
+	'JS_PLEASE_ENTER_VALID_TIME' => 'Por favor, digite uma hora válida',
+	'JS_INVALID_PAGE_NUMBER' => 'Número de Página Inválido',
 
 
-	'INVALID_NUMBER_OF'=> 'Número inválido',
+	'INVALID_NUMBER_OF'=> 'Número inválido de',
+	'INVALID_NUMBER' => 'Número inválido',
 	'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_DELETE' => 'Tem certeza que deseja apagar?',
 
-	'OVERWRITE_EXISTING_MSG1'=> 'Sobrescrever o endereço existente com o endereço selecionado?',
+	'OVERWRITE_EXISTING_MSG1'=> 'Sobrescrever o endereço existente pelo endereço selecionado? ',
 	'OVERWRITE_EXISTING_MSG2'=> 'Detalhes do Endereço' ,
 	'SINGLE_Accounts'=> 'Organização',
 	'SINGLE_Contacts'=> 'Contato' ,
@@ -664,17 +797,26 @@ $jsLanguageStrings = array(
 	'LBL_MASS_DELETE_CONFIRMATION' => 'Tem certeza que deseja apagar os Registros selecionados?',
 	'JS_LBL_SAVE'=> 'Salvar',
 	'JS_LBL_CANCEL'=> 'Cancelar',
+	'JS_DUPLICTAE_CREATION_CONFIRMATION' => 'O nome da Organização já existe. Deseja criar um registro duplicado?',
 
 	'SHOULD_BE_LESS_THAN_TODAY'=> 'Deve ocorrer antes de hoje' ,
 	'JS_PLEASE_SELECT_ATLEAST_ONE_OPTION' => 'Por favor, selecione ao menos uma opção',
 	'JS_SELECT_MODULE' => 'Por favor, selecione o Módulo',
 	'JS_PLEASE_SELECT_ATLEAST_ONE_MANDATORY_FIELD' => 'Por favor, selecione ao menos um Campo Obrigatório',
+	'JS_SELECT_MODULE' => 'Por favor, selecione um Módulo',
 	'JS_PLEASE_ENTER_INTEGER_VALUE' => 'Por favor, digite um valor inteiro',
 	'JS_PLEASE_ENTER_DECIMAL_VALUE' => 'Por favor, digite um valor decimal',
 
 	'JS_SHOULD_BE_LESS_THAN_CURRENT_DATE' => 'deve ser menor que a Data Atual',
 	'JS_SHOULD_BE_GREATER_THAN_CURRENT_DATE' => 'deve ser maior que a Data Atual',
 	'JS_SHOULD_BE_GREATER_THAN_OR_EQUAL_TO' => 'deve ser maior ou igual a',
+    'JS_SHOULD_BE_LESS_THAN_OR_EQUAL_TO' => 'deve ser menor que ou igual a',
+	'JS_PERCENTAGE_VALUE_SHOULD_BE_LESS_THAN_100' => 'O valor percentual deve ser menor que 100',
+	'JS_ACCEPT_ONLY_NUMBER' => 'Aceita somente números',
+	'JS_THIS_FILE_HAS_ALREADY_BEEN_SELECTED' => 'Este arquivo já foi selecionado',
+	'JS_MAX_FILE_UPLOAD_EXCEEDS' => 'Transferência máxima de arquivo excedeu',
+	'JS_THIS_DOCUMENT_HAS_ALREADY_BEEN_SELECTED' => 'Este Documento já foi anexado',
+	'JS_SHOULD_BE_GREATER_THAN_OR_EQUAL_TO' => 'Deve ser maior ou igual a',
 
 
 	//Roles
@@ -686,6 +828,9 @@ $jsLanguageStrings = array(
 	'JS_MAP_NAME_CAN_NOT_BE_EMPTY' => 'O Nome do Mapa não pode estar vazio',
 	'JS_MAP_NAME_ALREADY_EXISTS' => 'Nome do Mapa já existente' ,
 	'JS_SELECT_FILE_EXTENSION' => 'Por favor, selecione um arquivo com a seguinte extensão:',
+	'JS_UPLOADED_FILE_SIZE_SHOULD_BE_LESS_THAN' => 'O tamanho do arquivo deve ser inferior a',
+	'JS_UPLOADED_FILE_SIZE_EXCEEDS' => 'Tamanho do arquivo excedeu',
+	'JS_PLEASE_SPLIT_FILE_AND_IMPORT_AGAIN' => 'Por favor, divida o arquivo em arquivos menores e importe novamente.',
 	'JS_FIELD_MAPPED_MORE_THAN_ONCE' => 'Campo mapeado mais de um vez' ,
 	'JS_MAP_MANDATORY_FIELDS'=> 'Por favor, mapear campos obrigatórios' ,
 	'JS_PLEASE_ENTER_SOME_VALUE' => 'Por favor, digite ao menos um valor para pesquisa',
@@ -726,6 +871,54 @@ $jsLanguageStrings = array(
 	'JS_PLEASE_SELECT_AN_CONTACT_TO_COPY_ADDRESS' => 'Por favor, selecione um Contato para copiar o endereço',
 	'JS_SELECTED_ACCOUNT_DOES_NOT_HAVE_AN_ADDRESS' => 'A Organização selecionada não possui um endereço para copiar',
 	'JS_SELECTED_CONTACT_DOES_NOT_HAVE_AN_ADDRESS' => 'O Contato selecionado não possui um endereço para copiar',
-	'JS_PLEASE_ENTER_PRIMARY_EMAIL_VALUE_TO_ENABLE_PORTAL_USER' => 'Por favor, digite o email principal para habilitar acesso do Usuário do Portal',
-	'JS_PRIMARY_EMAIL_FIELD_DOES_NOT_EXISTS' => 'Falha ao habilitar acesso do Usuário ao Portal em função da inexistência do email principal',
+	'JS_PLEASE_ENTER_PRIMARY_EMAIL_VALUE_TO_ENABLE_PORTAL_USER' => 'Por favor, digite o email principal para habilitar o acesso do Usuário do Portal',
+	'JS_PRIMARY_EMAIL_FIELD_DOES_NOT_EXISTS' => 'Falta o email principal para habilitar acesso do Usuário ao Portal',
+	
+	//Tag Cloud validation messages
+	'JS_PLEASE_ENTER_A_TAG' => 'Por favor, digite uma etiqueta',
+	'JS_TAG_NAME_ALREADY_EXIST' => 'O nome da etiqueta já existe',
+	'JS_MAX_TAG_LENGTH_EXCEEDS' => 'O comprimento da etiqueta excedeu o tamanho máximo',
+	
+	'JS_NO_VIEW_PERMISSION_AFTER_SAVE'=> 'Você não terá permissão para visualizar estes recurso depois que salvar. Deseja continuar?',
+	'JS_NO_RECORDS_RELATED_TO_THIS_FILTER' => 'Nenhum Registro Relacionado para este Filtro',
+
+	// Calendar Reminder popup
+	'JS_START_DATE_TIME' => 'Data & Hora Início',
+	'JS_END_DATE_TIME' => 'Data & Hora Final',
+	'JS_POSTPONE' => 'Adiar',
+	'JS_MESSAGE' => 'Mensagem',
+	
+	'JS_NO_VIEW_PERMISSION_AFTER_SAVE'=> 'Após salvar você não terá permissão para visualizar este registro. Deseja continuar?',
+	
+	//Settings page translations
+	'JS_SUCCESSFULLY_PINNED' => 'Atalho adicionado com sucesso',
+	'JS_SUCCESSFULLY_UNPINNED' => 'Atalho removido com sucesso',
+	'JS_SHORTCUT_ALREADY_ADDED' => 'Este atalho já foi adicionado',
+	'JS_MESSAGE' => 'Mensagem',
+	
+	//Module Manager
+	'JS_MODULE_ENABLED' => 'Módulo Habilitado',
+	'JS_MODULE_DISABLED' => 'Módulo Desabilitado',
+	
+	//Crom tasks
+	'JS_VALUE_SHOULD_NOT_BE_LESS_THAN' => 'A frequência de qualquer tarefa configurada no Cron não deve ser inferior a',
+	'JS_MINUTES' => 'min',
+	
+	//PickList 
+	'JS_ITEM_RENAMED_SUCCESSFULLY' => 'Item Renomeado com Sucesso',
+	'JS_ITEM_ADDED_SUCCESSFULLY' => 'Item adicionado com Sucesso',
+	'JS_NO_ITEM_SELECTED' => 'Nenhum item Selecionado',
+	'JS_MORE_THAN_ONE_ITEM_SELECTED' => 'Mais de um Item selecionado',
+	'JS_ITEMS_DELETED_SUCCESSFULLY' => 'Itens Apagados com sucesso',
+	'JS_DUPLIACATE_ENTRIES_FOUND_FOR_THE_VALUE' => 'Foi encontrado valor duplicado',
+	'JS_SELECT_RECORDS_TO_MERGE_FROM_SAME_GROUP' => 'Voce deve selecionar os registros nos mesmos grupos para mesclar',
+	'JS_SELECT_ATLEAST_TWO_RECORD_FOR_MERGING' => 'Selecionar pelo menos dois registros para mesclar',
+	'JS_ALLOWED_TO_SELECT_MAX_OF_THREE_RECORDS' => 'Você tem permissão para selecionar no máximo três registros',
+	//Notification message for dashboard widget delete
+	'JS_ARE_YOU_SURE_TO_DELETE_WIDGET' => 'Tem certeza que deseja excluir o widget',
+	
+	//User Password
+	'JS_PASSWORD_INCORRECT_OLD'=>'Senha antiga especificado incorreta. Digite a senha novamente.',
+	'JS_PASSWORD_CHANGED_SUCCESSFULLY' => 'A Senha foi Alterada com Sucesso.',
+	'JS_REENTER_PASSWORDS'=>'Por favor, redigite as senhas.  Os valores da "nova senha" e da "senha de confirmação" não combinam.',
 );

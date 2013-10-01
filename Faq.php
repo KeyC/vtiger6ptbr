@@ -5,14 +5,13 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 29/03/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	'Faq'=> 'FAQ' , 
 	'SINGLE_Faq' => 'Faq' , 
 	'LBL_RECORDS_LIST' => 'Lista de FAQs' ,
 	'LBL_ADD_RECORD' => 'Adicionar FAQ' ,
-	'LBL_RECORD_SUMMARY' => 'Resumo FAQs',
 
 	//Blocks
 	'LBL_FAQ_INFORMATION'=> 'Informação FAQ', 
@@ -31,5 +30,5 @@ $languageStrings = array(
 	'Obsolete' => 'Obsoleta',
 
 	//EditView
-	'LBL_SOLUTION' => 'SOLUÇÃO' , 
+	'LBL_SOLUTION' => 'Solução' , 
 );

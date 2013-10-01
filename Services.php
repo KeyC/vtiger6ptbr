@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -13,7 +13,6 @@ $languageStrings = array(
 	'SINGLE_Services'=> 'Serviço', 
 	'LBL_ADD_RECORD' => 'Adicionar Serviço',
 	'LBL_RECORDS_LIST' => 'Lista Serviços' ,
-	'LBL_RECORD_SUMMARY' => 'Resumo Serviços',
 
 	// Blocks
 	'LBL_SERVICE_INFORMATION'=> 'Detalhes do Serviço' ,
@@ -39,4 +38,11 @@ $languageStrings = array(
 	'Usage Unit' => 'Unidade Utilizada' , 
 	'Tax Class'=> 'Categoria Imposto' , 
 	'Website'=> 'Website' ,
+	
+	//Services popup of pricebook
+	'LBL_ADD_TO_PRICEBOOKS' => 'Adicionar na Lista de Preços',
+
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Sales Order'=>'Pedido Vendas',
+	'Purchase Order'=>'Pedido Compras',
 );

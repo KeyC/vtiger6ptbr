@@ -5,9 +5,21 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 26/10/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	'LBL_TRANSFORM_OWNERSHIP'=> 'Transferir propriedade',
-	'LBL_TO_OTHER_GROUP' => 'Para Outro Grupo ' ,
+	'SINGLE_Groups' => 'Grupo',
+	'LBL_TO_OTHER_GROUP' => 'Para Outro Grupo ',
+	'LBL_ADD_RECORD' => 'Adicionar Grupo',
+	'LBL_GROUP_NAME' => 'Nome Grupo',
+	'LBL_GROUP_MEMBERS' => 'Membros do Grupo',
+	'LBL_ADD_USERS_ROLES' => 'Adicionar Usuários, Funções...',
+	'LBL_ROLEANDSUBORDINATE' => 'Função e Subordinados',
+	'RoleAndSubordinates' => 'Função e Subordinados',
+	'LBL_DUPLICATES_EXIST' => 'Nome do Grupo já Existe',
+);
+$jsLanguageStrings = array(
+	'JS_PLEASE_SELECT_ATLEAST_ONE_MEMBER_FOR_A_GROUP' => 'Por favor, selecione pelo menos um membro de um Grupo',
+	'JS_RECORD_DELETED_SUCCESSFULLY' => 'O Grupo foi apagado com sucesso',
 );

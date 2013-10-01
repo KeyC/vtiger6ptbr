@@ -5,14 +5,13 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
 	'SINGLE_Project' => 'Projeto' , 
 	'LBL_ADD_RECORD' => 'Adicionar Projeto' ,
 	'LBL_RECORDS_LIST' => 'Lista Projetos' ,
-	'LBL_RECORD_SUMMARY' => 'Resumo Projetos',
 
 	// Blocks
 	'LBL_PROJECT_INFORMATION'=> 'Detalhes do Projeto',
@@ -35,4 +34,19 @@ $languageStrings = array(
 
 	//Related List
 	'LBL_CHARTS' => 'Gráficos',
+	'LBL_TASKS_LIST' => 'Lista Tarefas',
+	'LBL_MILESTONES' => 'Milestones',
+	'LBL_TASKS' => 'Tarefas',
+	'LBL_STATUS_IS' => 'Status é',
+	'LBL_STATUS' => 'Status',
+	'LBL_TICKET_PRIORITY' => 'Prioridade',
+	'LBL_MORE' => 'mais',
+	
+	//Summary View Widgets
+	'LBL_DOWNLOAD_FILE' => 'Baixar Arquivo',
+
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Project Tasks'=>'Tarefas Projeto',
+	'Project Milestones'=>'Milestones Projeto',
+	'Trouble Tickets'=>'Tickets',
 );

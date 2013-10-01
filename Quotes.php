@@ -5,17 +5,17 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	//DetailView Actions
 	'SINGLE_Quotes'=> 'Cotação' ,
+	'LBL_EXPORT_TO_PDF'=> 'Exportar para PDF' , 
+    'LBL_SEND_MAIL_PDF' => 'Enviar Email com PDF',
 
 	//Basic strings
-	'LBL_EXPORT_TO_PDF'=> 'Exportar para PDF' , 
 	'LBL_ADD_RECORD' => 'Adicionar Cotação' ,
 	'LBL_RECORDS_LIST' => 'Lista Cotações',
-	'LBL_RECORD_SUMMARY' => 'Resumo Cotações',
 
 	// Blocks
 	'LBL_QUOTE_INFORMATION'=> 'Detalhes da Cotação',
@@ -28,6 +28,19 @@ $languageStrings = array(
 	//Added for existing Picklist Entries
 
 	'Accepted' => 'Aceita', 
-	'Rejected' => 'Rejeitada', 
+	'Rejected' => 'Rejeitada',
 
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Sales Order'=>'Pedido Vendas',
+	'Activities'=>'Atividades',
+
+	//Translation for product not found
+	'LBL_THIS' => 'Este',
+	'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => 'é excluído do Sistema. Por favor, remova ou sustitua este item',
+	'LBL_THIS_LINE_ITEM_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_THIS_LINE_ITEM' => 'Este item da linha é excluído do Sistema. Por favor, remova estes itens da linha',
+
+);
+
+$jsLanguageStrings = array(
+	'JS_PLEASE_UPDATE_THE_ITEM' => 'Por favor, atualize o item',
 );

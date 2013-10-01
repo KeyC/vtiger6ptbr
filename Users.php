@@ -5,20 +5,22 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
+	'LBL_ADD_RECORD' => 'Adicionar Usuário',
 
 	//MyPreference Blocks
 	'LBL_MY_PREFERENCES' => 'Minhas Preferências', 
 	'LBL_MORE_INFORMATION' => 'Mais Informação' , 
-	'LBL_USERLOGIN_ROLE' => 'Login & Função do Usuário', 
-	'LBL_USER_IMAGE_INFORMATION' => 'Fotografia do Usuário', 
+	'LBL_USERLOGIN_ROLE' => 'Acesso & Função do Usuário', 
+	'LBL_USER_IMAGE_INFORMATION' => 'Foto do Usuário', 
 	'LBL_CURRENCY_CONFIGURATION' => 'Configuração Moeda', 
 	'LBL_ADDRESS_INFORMATION'=> 'Informação Endereço', 
 	'LBL_USER_ADV_OPTIONS' => 'Opções para Usuários Avançados', 
 	'Asterisk Configuration' => 'Configuração Asterisk' , 
 	'LBL_HOME_PAGE_COMPONENTS' => 'Componentes Home Page' ,
+	'LBL_TAG_CLOUD_DISPLAY' => 'Exibir Tag Cloud',
 
 	//MyPreference Fields
 	'Role' => 'Função', 
@@ -26,8 +28,12 @@ $languageStrings = array(
 	'User Name'=> 'Nome Usuário' , 
 	'Default Activity View'=> 'Padrão Visualização Agenda', 
 	'Default Lead View'=> 'Padrão Visualização Lead' , 
-	'Title'=> 'Título' , 
-	'Office Phone' => 'Fone Escritório', 
+	'Title'=> 'Cargo' , 
+	'Office Phone' => 'Fone Escritório',
+	'Other Phone' => 'Telefone Alternativo',
+	'Email' => 'Email',
+	'Other Email' => 'Outro Email',
+	'Secondary Email' => 'Email Alternativo', 
 	'Department' => 'Departamento', 
 	'Reports To' => 'Reporta-se à' , 
 	'Yahoo id' => 'ID Yahoo', 
@@ -68,6 +74,10 @@ $languageStrings = array(
 	'Symbol Placement' => 'Localização Símbolo', 
 	'Number Of Currency Decimals'=> 'Número Casas Decimais Moeda' ,
 	'Truncate Trailing Zeros'=> 'Truncar Zeros à Direita' ,
+	'Default Call Duration' => 'Duração Padrão da Chamada (Min)',
+	'Other Event Duration' => 'Duração Outro Evento (Min)',
+	'Calendar Hour Format' => 'Formato Hora Agenda',
+	'Tag Cloud' => 'Tag Cloud',
 
 	//Time zones-Don't change any value
 	'Kwajalein'=> '(UTC-12:00) Data Internacional Linha Oeste', 
@@ -166,5 +176,60 @@ $languageStrings = array(
 	'Asia/Kamchatka' => '(UTC+12:00) Kamchatka' , 
 	'Pacific/Auckland' => '(UTC+12:00) Auckland', 
 	'Asia/Magadan' => '(UTC+12:00) Magadan' , 
-	'Pacific/Tongatapu'=> '(UTC+13:00) Nukualofa' , 
+	'Pacific/Tongatapu'=> '(UTC+13:00) Nukualofa' ,
+
+	'Summary' => 'Resumo',
+	'Detail' => 'Detalhes', 
+	'LBL_USER_LIST_DETAILS' => 'Detalhes',
+	
+	'LBL_OLD_PASSWORD' => 'Senha Antiga',
+	'LBL_CHANGE_PASSWORD' => 'Mudar Senha',
+	'LBL_NEW_PASSWORD' => 'Nova Senha',
+	'LBL_CONFIRM_PASSWORD' => 'Confirmar Senha',
+	
+	//Login strings
+	'LBL_TO_CRM' => 'Acesso ao Vtiger CRM',
+	'LBL_INVALID_USER_OR_PASSWORD' => 'Senha ou usuário Inválido.',
+	'LBL_INVALID_USER_OR_EMAIL' => 'Usuário ou Endereço de Email inválido.',
+	'LBL_EMAIL_SEND' => 'Nós enviamos para você, email para redefinição da sua senha.',
+	'ForgotPassword' => 'Esqueceu a Senha',
+	'LBL_CONNECT_WITH_US' => 'Conecte-se a NóS',
+	'LBL_GET_MORE' => 'Obtenha mais do Vtiger',
+
+//Missing Fields
+	'Starting Day of the week'=>'Dia Início Semana',
+	'Day starts at'=>'Horário Início dia',
+	'Default Record View'=>'Visualização Padrão',
+	'Today'=>'Hoje',
+	'This Week'=>'Esta Semana',
+	'This Month'=>'Este Mês',
+	'This Year'=>'Este Ano',
+	'1 Minute'=>'1 Minuto',
+	'5 Minutes'=>'5 Minutos',
+	'15 Minutes'=>'15 Minutos',
+	'30 Minutes'=>'30 Minutos',
+	'45 Minutes'=>'45 Minutos',
+	'1 Hour'=>'1 Hora',
+	'1 Day'=>'1 Dia',
+	'Last 2 Days'=>'Últimos 2 Dias',
+	'Last Week'=>'Última Semana',
+	'Sunday' => 'Domingo',
+	'Monday' => 'Segunda-feira',
+	'Tuesday' => 'Terça-feira',
+	'Wednesday' => 'Quarta-feira',
+	'Thursday' => 'Quinta-feira',
+	'Friday' => 'Sexta-feira',
+	'Saturday' => 'Sábado',
+
+);
+
+$jsLanguageStrings = array(
+	'JS_ENTER_OLD_PASSWORD'=>'Por favor, digite sua senha antiga.',
+	'JS_ENTER_NEW_PASSWORD'=>'Por favor, digite sua nova senha.',
+	'JS_ENTER_CONFIRMATION_PASSWORD'=>'Por favor, digite confirmação da senha.',
+	'JS_REENTER_PASSWORDS'=>'Por favor, redigite suas senhas.  Os valores da \"nova senha\" e \"senha de confirmação\" não combinam.',
+	'JS_INVALID_PASSWORD'=>'Você deve especificar um nome de usuário e senha válidos.',
+	'JS_PASSWORD_CHANGE_FAILED_1'=>'A mudança de senha do Usuário para ',
+	'JS_PASSWORD_CHANGE_FAILED_2'=>' falhou.  Uma nova senha deve ser definida.',
+	'JS_PASSWORD_INCORRECT_OLD'=>'A senha antiga está incorreta. Redigite a senha.',
 );

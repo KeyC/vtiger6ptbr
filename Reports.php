@@ -5,14 +5,14 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 17/05/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	'Reports'=>'Relatórios',
 	'SINGLE_Reports' => 'Relatório',
 
 	// Basic Strings
-	'LBL_FOLDER_NOT_EMPTY' => 'A Pasta não está vazia' ,
+	'LBL_FOLDER_NOT_EMPTY' => 'A pasta não está vazia',
 	'LBL_MOVE_REPORT'=> 'Mover Relatórios' ,
 	'LBL_CUSTOMIZE'=> 'Customizar',
 	'LBL_REPORT_EXPORT_EXCEL'=> 'Exportar para Excel',
@@ -31,12 +31,13 @@ $languageStrings = array(
 	'LBL_DUPLICATES_EXIST' => 'Duplicado',
 	'LBL_FOLDERS_LIST' => 'Lista de Pastas',
 	'LBL_DENIED_REPORTS' => 'Relatórios Negados',
+	'LBL_NO_OF_RECORDS' => 'Número de registros',
 	//ListView Actions
 	'LBL_ADD_RECORD' => 'Adicionar Relatório',
 	'LBL_ADD_FOLDER' => 'Adicionar Pasta',
 	'LBL_REPORT_DELETE_DENIED' => 'Permissão para apagar Relatório negada',
 
-	//Mass Actions
+	//Folder Actions
 	'LBL_FOLDER_NOT_EMPTY' => 'Folder is not empty',
 	'LBL_FOLDER_CAN_NOT_BE_DELETED' => 'Esta Pasta não pode ser apagada',
 
@@ -142,4 +143,9 @@ $languageStrings = array(
 	'LBL_LIMIT_EXCEEDED' => 'São exibidos somente até 1.000 registros. Utilize Exportar para CSV ou Excel para visualizar todos os regitros',
 	'LBL_TOP' => 'Topo',
 	'LBL_ALL_REPORTS' => 'Todos os Relatórios',
+	'LBL_CALCULATION_CONVERSION_MESSAGE' => 'Os cálculos são baseados na moeda padrão do seu CRM',
+);
+$jsLanguageStrings = array(
+	'JS_DUPLICATE_RECORD' => 'Duplicar Relatório',
+	'JS_CALCULATION_LINE_ITEM_FIELDS_SELECTION_LIMITATION' => 'Limitação: os campos do Item da linha (Lista de Preço, Desconto & Quantidade) somente podem ser utilizados quando outros campos de cálculo não forem selecionados.',
 );

@@ -5,14 +5,14 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
 	'SINGLE_Documents' => 'Documento' , 
+	'Documents' => 'Documentos',
 	'LBL_ADD_RECORD' => 'Adicionar Documento', 
 	'LBL_RECORDS_LIST' => 'Lista Documentos', 
-	'LBL_RECORD_SUMMARY' => 'Resumo Documentos' ,
 
 	// Blocks
 	'LBL_NOTE_INFORMATION' => 'Informação do Documento' , 
@@ -65,7 +65,7 @@ $languageStrings = array(
 
 $jsLanguageStrings = array(
 	'JS_EXCEEDS_MAX_UPLOAD_SIZE' => 'Tamanho máximo de upload excedido', 
-	'JS_NEW_FOLDER'=> 'Nova Pastar', 
+	'JS_NEW_FOLDER'=> 'Nova Pasta', 
 	'JS_MOVE_DOCUMENTS'=> 'Mover Documentos',
 	//Move documents confirmation message
 	'JS_ARE_YOU_SURE_YOU_WANT_TO_MOVE_DOCUMENTS_TO' => 'Tem certeza que deseja mover o(s) arquivo(s) para', 

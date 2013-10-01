@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 08/12/2012 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -13,7 +13,6 @@ $languageStrings = array(
 	'SINGLE_Campaigns' => 'Campanha', 
 	'LBL_ADD_RECORD'=> 'Adicionar Campanha' ,
 	'LBL_RECORDS_LIST' => 'Lista Campanhas',
-	'LBL_RECORD_SUMMARY'=> 'Resumo Campanhas',
 
 	// Blocks
 	'LBL_CAMPAIGN_INFORMATION'=> 'Informação da Campanha' , 
@@ -64,5 +63,8 @@ $languageStrings = array(
 	'--None--'=> '--Nada--', 
 	'Contacted - Successful' => 'Contactado - Sucesso', 
 	'Contacted - Unsuccessful'=> 'Contactado - Insucesso', 
-	'Contacted - Never Contact Again' => 'Contactado - Nunca Contactar Novamente', 
+	'Contacted - Never Contact Again' => 'Contactado - Nunca Contactar Novamente',
+
+	//Missing Fields Right Bar | Valmir C Trindade
+	'Activities'=>'Atividades',
 );
