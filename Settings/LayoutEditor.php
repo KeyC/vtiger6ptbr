@@ -85,4 +85,6 @@ $jsLanguageStrings = array(
 	'JS_NO_HIDDEN_FIELDS_EXISTS' => 'Nenhum Campo Inativo',
 	'JS_SPECIAL_CHARACTERS' => 'Caracteres Especiais como',
 	'JS_NOT_ALLOWED' => 'não são permitidos',
+	'JS_FIELD_SEQUENCE_UPDATED' => 'Sequência de Campos Atualizada',
+	'JS_DUPLICATES_VALUES_FOUND' => 'Foram encontrados Valores Duplicados'
 );

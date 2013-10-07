@@ -25,6 +25,8 @@ $languageStrings = array(
 	'Probability'=> 'Probabilidade', 
 	'Campaign Source'=> 'Fonte Campanha', 
 	'Forecast Amount'=> 'Valor Previsto' ,
+	'Related To' => 'Nome Organização',
+	'Contact Name' => 'Nome Contato',
 	
 	//Dashboard widgets
 	'Funnel' => 'Funil de Vendas',

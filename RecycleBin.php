@@ -25,6 +25,7 @@ $languageStrings = Array(
 $jsLanguageStrings = array(
 	'JS_MSG_EMPTY_RB_CONFIRMATION' => 'Tem certeza que deseja remover permanentemente, de sua base de dados, todos os registros apagados?',
 	'JS_LBL_RESTORE_RECORDS_CONFIRMATION' => 'Tem certeza que deseja restaurar os registros?',
+	'JS_RESTORING_RECORDS' => 'Restaurando registros',
 );
 
 

@@ -127,7 +127,7 @@ $languageStrings = array(
 	'LBL_IN' => 'Em', 
 	'LBL_TYPE_SEARCH'=> 'Digite para pesquisar',
 	'LBL_SEARCH_BUTTON'=> 'Botão Pesquisa' ,
-	'LBL_ADVANCE_SEARCH' => 'Pesquisa Avançada',
+	'LBL_ADVANCE_SEARCH' => 'Avançada',
 	'LBL_LOADING_PLEASE_WAIT'=> 'Carregando, por favor, aguarde.' ,
 	'LBL_PLEASE_SELECT_MODULE' => 'Por favor, selecione o módulo',
 
@@ -171,6 +171,7 @@ $languageStrings = array(
 	'SalesOrder' => 'Pedidos Venda', 
 	'Invoice'=> 'Faturas',
 	'MailManager' => 'Gestor Mensagens',
+	'Activities' => 'Atividades',
 
 
 	//Basic String Translation
@@ -292,6 +293,7 @@ $languageStrings = array(
 	'LBL_UPDATED'=> 'Atualizado', 
 	'LBL_FROM' => 'de',
 	'LBL_TO' => 'para',
+	'LBL_to' => 'para',
 	'LBL_ON' => 'em',
 	'LBL_OF' => 'de',
 	'LBL_BY' => 'Por ', 
@@ -511,7 +513,7 @@ $languageStrings = array(
 	'Healthcare' => 'Saúde',
 	'Hospitality'=> 'Hotéis' ,
 	'Insurance'=> 'Seguros' ,
-	'Machinery'=> 'Maquinaria' ,
+	'Machinery'=> 'Maquinas' ,
 	'Manufacturing'=> 'Indústria' ,
 	'Media'=> 'Mídia' ,
 	'Not For Profit' => 'ONG',
@@ -541,7 +543,7 @@ $languageStrings = array(
 	'Cancelled'=> 'Cancelado' ,
 
 	'Currency' => 'Moeda' ,
-	'LBL_BASE_CURRENCY'=> 'Moeda Base',
+	'LBL_BASE_CURRENCY'=> 'Moeda Padrão',
 
 	'Discount Percent' => 'Percentual Desconto',
 	'Discount Amount'=> 'Valor Desconto' ,
@@ -550,6 +552,9 @@ $languageStrings = array(
 
 	'Due Date' => 'Vencimento', 
 	'Due Date & Time'=> 'Data & Hora Vencimento' ,
+	'Email' => 'Email Principal',
+	'Secondary Email' => 'Email Alternativo',
+	'Other Email' => 'Outro Email',
 	'Email Opt Out' => 'Recusa Email',
  
 	'Expected Close Date'=> 'Previsão Fechamento', 
@@ -602,7 +607,9 @@ $languageStrings = array(
 	'Lead Source'=> 'Fonte Lead', 
 	'Mobile' => 'Celular' ,
  
-	'Notify Owner' => 'Notificar Proprietário' , 
+	'Notify Owner' => 'Notificar Proprietário' ,
+	'Other Phone' => 'Telefone Alternativo',
+	'Phone' => 'Telefone Principal',
 
 	'State'=> 'Estado', 
 	'Po Box' => 'Cx Postal',
@@ -631,7 +638,7 @@ $languageStrings = array(
 	'LBL_BLANK' => '-Em branco-',
 
 	//PageTitle translations
-	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM',
+	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM Open Source',
 
 	//Translations used in inventory modules for sopy address
 	'SINGLE_Accounts' => 'Organização',
@@ -696,7 +703,6 @@ $languageStrings = array(
 	'LBL_GO_TO_PREVIEW' => 'Ir para Visualização',
 	'LBL_SELECT_EMAIL_TEMPLATE' => 'Selecionar Modelo Email',
 	'LBL_COMPOSE_EMAIL' => 'Novo Email',
-	'LBL_TO' => 'Para',
  	'LBL_CC' => 'Cc',
    	'LBL_BCC' => 'Bcc',
    	'LBL_ADD_CC' => 'Adicionar Cc',
@@ -716,35 +722,49 @@ $languageStrings = array(
 	'LBL_NO_DUPLICATED_FOUND' => 'Nenhuma registro duplicado sof encontrado',
 	'LBL_MERGE_SELECT' => 'Selecionar Mesclagem',
 
-	'Dear_Admin_tasks_not_been_completed' => 'Caro Admin,<br><br> Por favor, observe que existem algumas tarefas no Sistema que não foram concluídas após 24 horas depois de criadas<br>',
-	'LBL_ASSIGNED_TO' => 'Atribuída a',
-	'Task_sign'=>'Obrigado<br>Equipe Atendimento<br>',
-	'Task_Not_completed' => 'Tarefa não concluída',
-	'Dear_Team' => 'Prezada Equipe,<br>',
-	'Dear_Team_Time_to_Party' => '<br>Parabéns!É um momento de Festa! <br>Nós fechamos negócios acima de 10.000!!!!<br> É hora de festejarmos!<br>',
-	'Task_Not_completed' => 'Tarefa não concluída',
-	'Too_many_pending_tickets' => 'Muitos Tichets pendentes',
-	'Dear_Admin_too_many_tickets_pending' => 'Caro Admin,<br> Informo que existem muitos Tickets pendentes. Por gentileza, tome as medidas necessárias para resolve-los<br><br> Obrigado,<br> Equipe Atendimento<br>',
-	'Potential_Id' => 'Id Oportunidade:',
-	'Potential_Name' => 'Nome Oportunidade:',
-	'Big_Deal_Closed_Successfully' => 'Grande Negócio Fechado com Sucesso',
-	'Pending_Ticket_notification' => 'Notificação de Ticket Pendente',
-	'Kind_Attention' => 'Caro Admin,<br> Esta notificação é para chamar sua atenção para o número de ticket ',
-	'Thank_You_HelpDesk' => ' ainda está por ser fechado<br> Obrigado,<br> Equipe Atendimento<br>',
-	'Support_starting' => 'Início Suporte',
-	'Hello_Support' => 'Olá! Inicio Suporte em',
-	'Congratulations' => 'Parabéns! Seu suporte inicia a partir de hoje',
-	'Support_Ending_Subject' => 'Reg: Final Suporte',
-	'Support_Ending_Content' => 'Caro Admin,<br><br> Esta notificação tem como objetivo informar-lhe que a Data de Suporte para o produto <b>',
-	'kindly_renew' => '</b> terminará em breve. Por gentileza, renove seu Suporte.<br><br>Cordialmente,<br>Equipe Atendimento<br>',
-
-	// webservices language app_strings
-	'Groups'=>'Grupos',
-	'DocumentFolders'=>'Pastas Documentos',
-	'SINGLE_Groups'=>'Grupo',
-	'SINGLE_DocumentFolders'=>'Pasta Documento',
-	'SINGLE_Currency'=>'Moeda',
+	//sbproducts translation
+	'LBL_BACK_TO_PRODUCTS' => 'Voltar para produtos',
 	
+	//Translations used for Export to Pdf
+	'Valid Date' => 'Data Validade',
+	'Phone: ' => 'Telefone: ',
+	'Issued Date' => 'Data Emissão',
+	'Shipping & Handling Charges' => 'Frete',
+	'Shipping & Handling Tax:' => 'Imposto Frete:',
+	'Discount'=>'Desconto',
+	'Net Total' => 'Total Líquido',
+	'Product Code'=>'Código Produto',
+	'Customer Name'=>'Nome Cliente',
+	'Price'=>'Preço',
+	'Tax:' => 'Imposto:',
+	'Contact Name' => 'Nome Contato',
+	'Grand Total:' => 'Total Geral:',
+	'Fax: ' => 'Fax: ',
+	'Website: ' => 'Website: ',
+	'Tax' => 'Imposto',
+	'LBL_ALPHABETS' => 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z',
+
+	//Realted tab strings
+	'Service Contracts' => 'Contratos Serviços',
+	'Projects' => 'Projetos',
+	'Sales Order' => 'Pedido Vendas',
+	'Purchase Order' => 'Pedido Compras',
+	'List and Campaigns' => 'Lista e Campanhas',
+	'Project Tasks' => 'Tarefas Projeto',
+	'Project Milestones' => 'Milestones Projeto',
+		
+	'Labels Editor' => 'Editor Rótulos',
+	'LBL_IGNORE_EMPTY_VALUES' =>'Ignorar valores vazios',
+		
+	//Related tabs of Products
+	'Product Bundles' => 'Produtos Compostos',
+	'Parent Product' => 'Produto Pai',
+	
+	'LBL_MANAGE_USERS' => 'Gerenciar Usuários',
+	'LBL_TRANSFER_OWNERSHIP' => 'Transferir Propriedade',
+	'LBL_SELECT_RELATED_MODULES' => 'Selecionar Módulos Relacionados',
+	'LBL_ASSIGNED_TO' => 'Designado a',
+		
 	//Report Detail View
 	'LBL_VIEW_DETAILS' => 'Visualizar Datalhes',
 
@@ -916,9 +936,25 @@ $jsLanguageStrings = array(
 	'JS_ALLOWED_TO_SELECT_MAX_OF_THREE_RECORDS' => 'Você tem permissão para selecionar no máximo três registros',
 	//Notification message for dashboard widget delete
 	'JS_ARE_YOU_SURE_TO_DELETE_WIDGET' => 'Tem certeza que deseja excluir o widget',
+	'JS_DUPLICATE_ENTRIES_FOUND_FOR_THE_VALUE' => 'Duplicar entradas encontrada para o valor',
+	'JS_SELECT_RECORDS_TO_MERGE_FROM_SAME_GROUP' => 'Você tem que selecionar os registros nos mesmos grupos para mesclar',
+	'JS_SELECT_ATLEAST_TWO_RECORD_FOR_MERGING' => 'Selecionar ao menos dois registros para mesclar',
+	'JS_ALLOWED_TO_SELECT_MAX_OF_THREE_RECORDS' => 'Você tem permissão para selecionar no máximo três registros',
+	'JS_TOTAL_RECORDS' => 'Total registros',
+	'JS_PAGE_NOT_EXIST' => 'A página não existe',
+	'JS_YOU_ARE_IN_PAGE_NUMBER' => 'Você está na página número',
 	
-	//User Password
-	'JS_PASSWORD_INCORRECT_OLD'=>'Senha antiga especificado incorreta. Digite a senha novamente.',
-	'JS_PASSWORD_CHANGED_SUCCESSFULLY' => 'A Senha foi Alterada com Sucesso.',
-	'JS_REENTER_PASSWORDS'=>'Por favor, redigite as senhas.  Os valores da "nova senha" e da "senha de confirmação" não combinam.',
+	//More currencies message
+	'JS_PLEASE_ENABLE_BASE_CURRENCY_FOR_PRODUCT' => 'Por favor, habilite a moeda padrão para o produto',
+	'JS_PLEASE_SELECT_BASE_CURRENCY_FOR_PRODUCT' => 'Por favor, selecione a moeda padrão para o produto',
+		
+	//Delete Records message
+	'JS_RECORDS_ARE_GETTING_DELETED' => 'Os registros estão sendo excluídos',
+	'JS_RECORD_GETTING_DELETED' => 'Registros sendo apagados',
+	'JS_NO_RESULTS_FOUND' => 'Nenhum resultado encontrado',
+	
+	'JS_RECORDS TRANSFERRED SUCCESSFULLY' => 'Os registros do proprietário foram transferidos com sucesso',
+	
+	'JS_USER_EXISTS' => 'O Usuário já Existe',
+	'JS_REENTER_PASSWORDS' => 'Redigite a Senha',
 );

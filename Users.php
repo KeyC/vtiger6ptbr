@@ -30,10 +30,6 @@ $languageStrings = array(
 	'Default Lead View'=> 'Padrão Visualização Lead' , 
 	'Title'=> 'Cargo' , 
 	'Office Phone' => 'Fone Escritório',
-	'Other Phone' => 'Telefone Alternativo',
-	'Email' => 'Email',
-	'Other Email' => 'Outro Email',
-	'Secondary Email' => 'Email Alternativo', 
 	'Department' => 'Departamento', 
 	'Reports To' => 'Reporta-se à' , 
 	'Yahoo id' => 'ID Yahoo', 
@@ -196,6 +192,9 @@ $languageStrings = array(
 	'LBL_CONNECT_WITH_US' => 'Conecte-se a NóS',
 	'LBL_GET_MORE' => 'Obtenha mais do Vtiger',
 
+	'LBL_TRANSFER_RECORDS_TO_USER' => 'Transferir registros para Usuário',
+	'LBL_USER_TO_BE_DELETED' => 'Usuário a ser Apagado',
+		
 //Missing Fields
 	'Starting Day of the week'=>'Dia Início Semana',
 	'Day starts at'=>'Horário Início dia',

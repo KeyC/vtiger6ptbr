@@ -91,7 +91,8 @@ $languageStrings = array(
 	'LBL_RECORDS_LIST' => 'Visualizar Lista',
 	'LBL_CALENDAR_VIEW'=> 'Visualizar Agenda' ,
 
-    'LBL_INVITE_USER_BLOCK' => 'Convite',
-    'LBL_INVITE_USERS' => 'Convidar Usuários'
+    'LBL_INVITE_USER_BLOCK' => 'Convidar',
+    'LBL_INVITE_USERS' => 'Convidar Usuários',
+	'INVITATION'=> 'Convite ',
 
 );

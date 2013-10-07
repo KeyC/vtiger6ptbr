@@ -244,7 +244,13 @@ $languageStrings = array(
 	
 	//User Login History
 	'LoginHistory' => 'Histórico Acesso Usuário',
-	'LBL_SELECT_USER' => 'Selecionar Usuário',
+	'LBL_LOGIN_HISTORY_DETAILS' => 'Histórico Acesso',
+	'LBL_LOGIN_HISTORY_DESCRIPTION' => 'Detalhes Histórico Acesso',
+	'LBL_USER_NAME'=> 'Nome Usuário',
+	'LBL_USER_IP_ADDRESS'=> 'Endereço IP do Usuários',
+	'LBL_LOGIN_TIME' => 'Horário Acesso',
+	'LBL_LOGGED_OUT_TIME' => 'Horário Desconexão',
+	'LBL_STATUS' => 'Status',
 	'LBL_LOGIN_HISTORY_DETAILS' => 'Histórico Acesso',
 	'LBL_LOGIN_HISTORY_DESCRIPTION' => 'Detalhes Histórico Acesso',
 

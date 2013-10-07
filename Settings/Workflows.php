@@ -11,7 +11,8 @@ $languageStrings = array(
 	//Basic Field Names
 	'LBL_NEW' => 'Novo',
 	'LBL_WORKFLOW' => 'Workflow',
-	'LBL_CREATING_WORKFLOW' => 'Criando WorkFlow',
+	'LBL_CREATING_WORKFLOW' => 'Criação WorkFlow',
+	'LBL_EDITING_WORKFLOW' => 'Edição Workflow',
 	'LBL_NEXT' => 'Próximo',
 
 	//Edit view
@@ -71,7 +72,7 @@ $languageStrings = array(
 	'LBL_END_TIME' => 'Hora Final',
 	'LBL_END_DATE' => 'Data Final',
 	'LBL_ENABLE_REPEAT' => 'Habilitar Repetir',
-	'LBL_NO_METHOD_IS_AVAILABLE_FOR_THIS_MODULE' => 'Nenhum método está disponível para este módulo',
+	'LBL_NO_METHOD_IS_AVAILABLE_FOR_THIS_MODULE' => 'Nenhum método está disponível para este Módulo',
 	'LBL_FINISH' => 'Final',
 	'LBL_NO_TASKS_ADDED' => 'Nenhuma Tarefa',
 	'LBL_CANNOT_DELETE_DEFAULT_WORKFLOW' => 'Você não pode apagar o Workflow padrão',

@@ -88,6 +88,7 @@ $languageStrings = array(
 	
 	'LBL_ADD_TO_PRICEBOOKS' => 'Adicionar na Lista de Preços',
 	'LBL_CONVERSION_RATE' => 'Taxa Conversão',
+	'LBL_NOT_A_BUNDLE' => 'Não é um Pacote',
 
 	//Fields Missing Right Bar | Valmir C Trindade
 	'Sales Order'=>'Pedido Vendas',

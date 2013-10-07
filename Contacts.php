@@ -49,6 +49,7 @@ $languageStrings = array(
 	'Other Phone' => 'Telefone Alternativo',
 	'Email' => 'Email',
 	'Secondary Email' => 'Email Alternativo',
+	'Contact ID' => 'Cód. Contato',
 
 	//Added for Picklist Values
 	'Mr.'=> 'Sr.' , 
