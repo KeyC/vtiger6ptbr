@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translated to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -23,6 +23,7 @@ $languageStrings = array(
 	'LBL_OTHER_EVENTS' => 'Outros Eventos',
 	'LBL_MINUTES' => 'Minutos',
 	'LBL_SELECT_USERS' => 'Selecionar Usuários',
+	'LBL_EVENT_OR_TASK' => 'Evento / Tarefa',
 
 	// Blocks
 	'LBL_TASK_INFORMATION' => 'Informação Tarefa' , 
@@ -122,6 +123,7 @@ $jsLanguageStrings = array(
     'LBL_NOT_SYNCRONIZED' => 'Você ainda não sincronizou',
     'LBL_FIELD_MAPPING' => 'Mapeamento Campos',
     'LBL_CANT_SELECT_CONTACT_FROM_LEADS' => 'Não é possível selecionar Contatos relacionados para Leads',
+    'JS_FUTURE_EVENT_CANNOT_BE_HELD' => 'Não pode ser considerado para o Futuro',
 	
 	//Calendar view label translation
 	'LBL_MONTH' => 'Mês',
@@ -171,6 +173,6 @@ $jsLanguageStrings = array(
 	'LBL_NOV' => 'Nov',
 	'LBL_DEC' => 'Dez',
 	
-	'LBL_ALL_DAY' => 'Dia',
+	'LBL_ALL_DAY' => 'Todos os Dias',
 	//End
 );

@@ -99,8 +99,8 @@ $languageStrings = array(
 	'Regex' => 'Regex',
 
 	//Rule Actions
-	'CREATE_HelpDesk_FROM' => 'Criar Ticket',
-	'UPDATE_HelpDesk_SUBJECT' => 'Atualizar Ticket',
+	'CREATE_HelpDesk_FROM' => 'Criar Chamado',
+	'UPDATE_HelpDesk_SUBJECT' => 'Atualizar Chamado',
 	'LINK_Contacts_FROM' => 'Adicionar ao Contato [DE]',
 	'LINK_Contacts_TO' => 'Adicionar ao Contato [PARA]',
 	'LINK_Accounts_FROM' => 'Adicionar à Organização [DE]',

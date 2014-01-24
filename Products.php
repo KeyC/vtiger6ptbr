@@ -84,15 +84,9 @@ $languageStrings = array(
 	'Reams'=> 'Resma' , 
 	'Sheet'=> 'Folhas', 
 	'Spiral Binder'=> 'Espiral', 
-	'Sq Ft'=> 'm2',
+	'Sq Ft'=> 'M2',
 	
 	'LBL_ADD_TO_PRICEBOOKS' => 'Adicionar na Lista de Preços',
 	'LBL_CONVERSION_RATE' => 'Taxa Conversão',
 	'LBL_NOT_A_BUNDLE' => 'Não é um Pacote',
-
-	//Fields Missing Right Bar | Valmir C Trindade
-	'Sales Order'=>'Pedido Vendas',
-	'Purchase Order'=>'Pedido Compras',
-	'Product Bundles'=>'Produto Composto',
-	'Parent Product'=>'Produto Principal',
 );

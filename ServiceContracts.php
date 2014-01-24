@@ -10,7 +10,8 @@
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
-	'ServiceContracts' => 'Contratos' , 
+	'ServiceContracts' => 'Contratos' ,
+	'Service Contracts' => 'Contratos',
 	'SINGLE_ServiceContracts'=> 'Contrato' , 
 	'LBL_ADD_RECORD' => 'Adicionar Contrato',
 	'LBL_RECORDS_LIST' => 'Lista Contratos',
@@ -27,10 +28,4 @@ $languageStrings = array(
 	'Progress' => 'Progresso', 
 	'Planned Duration' => 'Duração Planejada (em Dias)', 
 	'Actual Duration'=> 'Duração Atual (em Dias)',
-
-	//Missing Fields Right Bar | Valmir C Trindade
-	'Service Requests'=>'Solicitação Serviço',
-	'Related to'=>'Relacionado a',
-	'Due date'=>'Data vencimento',
-	'Service Contracts' => 'Contratos' , 
 );

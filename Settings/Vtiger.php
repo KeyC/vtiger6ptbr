@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 30/11/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -97,6 +97,7 @@ $languageStrings = array(
 
 	'LBL_LIST_WORKFLOWS' => 'Workflows',
 	'LBL_LIST_WORKFLOWS_DESCRIPTION' => 'Criar e editar Workflows',
+    'LBL_SELECT_DATE' => 'Selecionar datas',
 
 	'Configuration Editor' => 'Editor Configuração',
 	'Update configuration file of the application' => 'Atualizar arquivo de configuração da aplicação',
@@ -244,26 +245,23 @@ $languageStrings = array(
 	
 	//User Login History
 	'LoginHistory' => 'Histórico Acesso Usuário',
+	'LBL_SELECT_USER' => 'Selecionar Usuário',
 	'LBL_LOGIN_HISTORY_DETAILS' => 'Histórico Acesso',
 	'LBL_LOGIN_HISTORY_DESCRIPTION' => 'Detalhes Histórico Acesso',
 	'LBL_USER_NAME'=> 'Nome Usuário',
-	'LBL_USER_IP_ADDRESS'=> 'Endereço IP do Usuários',
-	'LBL_LOGIN_TIME' => 'Horário Acesso',
-	'LBL_LOGGED_OUT_TIME' => 'Horário Desconexão',
+	'LBL_USER_IP_ADDRESS'=> 'Endereço IP Usuário', 
+	'LBL_LOGIN_TIME' => 'Horário Conexão',
+	'LBL_LOGGED_OUT_TIME' => 'Horário Desconexão', 
 	'LBL_STATUS' => 'Status',
-	'LBL_LOGIN_HISTORY_DETAILS' => 'Histórico Acesso',
-	'LBL_LOGIN_HISTORY_DESCRIPTION' => 'Detalhes Histórico Acesso',
+	
+	'LBL_CONFIG_EDITOR_DESCRIPTION' => 'Atualizar arquivo de configuração da aplicação',
 
 //Missing fields
 'PickListDependency'=>'Dependência Lista Opções',
 'Public: Read, Create/Edit, Delete'=>'Ler/Criar/Editar/Apagar',
 'Public: Read Only'=>'Leitura',
 'Public: Read, Create/Edit'=>'Ler/Criar/Editar',
-'Private'=>'Particular',
-'User Name'=>'Nome Usuário',
-'IP Address'=>'Endereço IP',
-'Signin Time'=>'Horário Conexão',
-'Signout Time'=>'Horário Desconexão',
+
 );
 
 $jsLanguageStrings = array(
@@ -278,6 +276,7 @@ $jsLanguageStrings = array(
 	'JS_PLEASE_ENTER_NUMBER_IN_RANGE_1TO5' => 'Por favor, digite um valor entre 1-5',
 	'JS_PLEASE_ENTER_NUMBER_IN_RANGE_1TO100' => 'Por favor, digite um valor entre 1-100',
 	'JS_RECORD_NUMBERING_SAVED_SUCCESSFULLY_FOR' => 'Numeração do Registro salvo com Sucesso para',
+	'LBL_PREFIX_IN_USE' => 'Prefixo em uso',
 	'JS_RECORD_NUMBERING_UPDATED_SUCCESSFULLY_FOR' => 'Numeração do Registro Atualizado com Sucesso a',
 	'JS_SEQUENCE_NUMBER_MESSAGE' => 'Número da Sequência deve ser maior ou igual a',
 	'LBL_WRONG_IMAGE_TYPE' => 'o tipo de imagem não é suportado',

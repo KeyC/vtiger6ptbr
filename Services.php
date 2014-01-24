@@ -38,11 +38,8 @@ $languageStrings = array(
 	'Usage Unit' => 'Unidade Utilizada' , 
 	'Tax Class'=> 'Categoria Imposto' , 
 	'Website'=> 'Website' ,
+        'LBL_CONVERSION_RATE'=>'Taxa Câmbio',
 	
 	//Services popup of pricebook
 	'LBL_ADD_TO_PRICEBOOKS' => 'Adicionar na Lista de Preços',
-
-	//Missing Fields Right Bar | Valmir C Trindade
-	'Sales Order'=>'Pedido Vendas',
-	'Purchase Order'=>'Pedido Compras',
 );

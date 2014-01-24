@@ -5,14 +5,14 @@
  * The Original Code is:  vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 17/05/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 30/11/2013 - www.ttcasolucoes.com.br
  *************************************************************************************/
 $languageStrings = array(
 	//Basic Field Names
 	'LBL_NEW' => 'Novo',
 	'LBL_WORKFLOW' => 'Workflow',
-	'LBL_CREATING_WORKFLOW' => 'Criação WorkFlow',
-	'LBL_EDITING_WORKFLOW' => 'Edição Workflow',
+	'LBL_CREATING_WORKFLOW' => 'Criando WorkFlow',
+	'LBL_EDITING_WORKFLOW' => 'Editando Workflow',
 	'LBL_NEXT' => 'Próximo',
 
 	//Edit view
@@ -72,7 +72,7 @@ $languageStrings = array(
 	'LBL_END_TIME' => 'Hora Final',
 	'LBL_END_DATE' => 'Data Final',
 	'LBL_ENABLE_REPEAT' => 'Habilitar Repetir',
-	'LBL_NO_METHOD_IS_AVAILABLE_FOR_THIS_MODULE' => 'Nenhum método está disponível para este Módulo',
+	'LBL_NO_METHOD_IS_AVAILABLE_FOR_THIS_MODULE' => 'Nenhum método está disponível para este módulo',
 	'LBL_FINISH' => 'Final',
 	'LBL_NO_TASKS_ADDED' => 'Nenhuma Tarefa',
 	'LBL_CANNOT_DELETE_DEFAULT_WORKFLOW' => 'Você não pode apagar o Workflow padrão',

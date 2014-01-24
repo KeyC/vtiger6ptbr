@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 30/11/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 
@@ -54,7 +54,7 @@ $languageStrings = array(
 	'LBL_SEND_EMAIL' => 'Enviar Email',
 	//SEND EMAIL translations
 	'LBL_ALL_EMAILS' => 'Todas Contas email',
-	'LBL_MUTIPLE_EMAIL_SELECT_ONE' => 'Este registro armazena múltiplas contas de email. Por favor, selecione as contas para as quais os emails deverão ser enviados',
+	'LBL_MUTIPLE_EMAIL_SELECT_ONE' => 'Por favor, selecione uma das opções abaixo',
 	//SEND EMAIL translations
 	'LBL_GO_TO_FULL_FORM'=> 'Forma Completa' ,
 	'LBL_SEND_SMS' => 'Enviar SMS',
@@ -65,7 +65,7 @@ $languageStrings = array(
 	'LBL_CREATE_NEW' => 'Criar Novo',
 	'LBL_ADD_EVENT'=> 'Adicionar Evento' ,
 	'LBL_ADD_TASK' => 'Adicionar Tarefa',
-	'LBL_MARKETING_AND_SALES'=> 'MARKETING & VENDAS' ,
+	'LBL_MARKETING_AND_SALES'=> 'MARKETING/VENDAS' ,
 	'LBL_TOOLS_HEADER' => 'FERRAMENTAS' ,
 	'LBL_SUPPORT'=> 'SUPORTE' ,
 	'LBL_INVENTORY'=> 'ESTOQUE' ,
@@ -127,7 +127,7 @@ $languageStrings = array(
 	'LBL_IN' => 'Em', 
 	'LBL_TYPE_SEARCH'=> 'Digite para pesquisar',
 	'LBL_SEARCH_BUTTON'=> 'Botão Pesquisa' ,
-	'LBL_ADVANCE_SEARCH' => 'Avançada',
+	'LBL_ADVANCE_SEARCH' => 'Pesquisa Avançada',
 	'LBL_LOADING_PLEASE_WAIT'=> 'Carregando, por favor, aguarde.' ,
 	'LBL_PLEASE_SELECT_MODULE' => 'Por favor, selecione o módulo',
 
@@ -227,7 +227,7 @@ $languageStrings = array(
 
 	//Advance Search
 	'LBL_SAVE_FILTER'=> 'Salvar Filtro' ,
-	'LBL_SAVE_MODIFY_FILTER' => 'Salvar/Modicar Filtro',
+	'LBL_SAVE_MODIFY_FILTER' => 'Salvar/Modificar Filtro',
 	'LBL_SEARCH_RESULTS' => 'Resultados Pesquisa',
 	'LBL_SAVE_AS_FILTER' => 'Salvar como Filtro',
 
@@ -252,7 +252,7 @@ $languageStrings = array(
 	'LBL_TAX'=> 'Imposto' , 
 	'LBL_ADD_PRODUCT'=> 'Adicionar Produto' , 
 	'LBL_ADD_SERVICE'=> 'Adicionar Serviço',
-	'LBL_ITEMS_TOTAL' => 'Items Total',
+	'LBL_ITEMS_TOTAL' => 'Valor Total Itens',
 	'LBL_SHIPPING_AND_HANDLING_CHARGES' => 'Frete' ,
 	'LBL_PRE_TAX_TOTAL' => 'Total Antes Imposto',
 	'LBL_TAX_FOR_SHIPPING_AND_HANDLING' => 'Impostos s/ Frete' , 
@@ -433,8 +433,8 @@ $languageStrings = array(
 	'Leads by Status'=> 'Leads por Status' ,
 	'Leads by Source'=> 'Leads por Fonte' ,
 	'Leads by Industry'=> 'Leads por Atividade' ,
-	'Tickets by Status' => 'Tickets por Status',
-	'Open Tickets' => 'Tickets Abertos',
+	'Tickets by Status' => 'Chamados por Status',
+	'Open Tickets' => 'Chamados Abertos',
 	'Funnel Amount' => 'Valor Total por Estágio de Vendas',
 
 	//Exports strings
@@ -447,6 +447,7 @@ $languageStrings = array(
 	'LBL_CUSTOM_VIEW_NAME_DUPLICATES_EXIST' => 'filtro já existente' ,
 
 	'LBL_ADD_MANAGE_MODULES' => 'Adicionar/Administrar Módulos',
+	'LBL_CUSTOMIZE_MAIN_MENU' => 'Customizar Menu Principal',
 	
 	// Added Common Keys for all modules
 	'Account Name' => 'Nome Organização', 
@@ -513,7 +514,7 @@ $languageStrings = array(
 	'Healthcare' => 'Saúde',
 	'Hospitality'=> 'Hotéis' ,
 	'Insurance'=> 'Seguros' ,
-	'Machinery'=> 'Maquinas' ,
+	'Machinery'=> 'Maquinaria' ,
 	'Manufacturing'=> 'Indústria' ,
 	'Media'=> 'Mídia' ,
 	'Not For Profit' => 'ONG',
@@ -543,7 +544,7 @@ $languageStrings = array(
 	'Cancelled'=> 'Cancelado' ,
 
 	'Currency' => 'Moeda' ,
-	'LBL_BASE_CURRENCY'=> 'Moeda Padrão',
+	'LBL_BASE_CURRENCY'=> 'Moeda Base',
 
 	'Discount Percent' => 'Percentual Desconto',
 	'Discount Amount'=> 'Valor Desconto' ,
@@ -553,8 +554,8 @@ $languageStrings = array(
 	'Due Date' => 'Vencimento', 
 	'Due Date & Time'=> 'Data & Hora Vencimento' ,
 	'Email' => 'Email Principal',
-	'Secondary Email' => 'Email Alternativo',
-	'Other Email' => 'Outro Email',
+	'Secondary Email' => 'Email Secundário',
+	'Other Email' => 'Email Alternativo',
 	'Email Opt Out' => 'Recusa Email',
  
 	'Expected Close Date'=> 'Previsão Fechamento', 
@@ -608,7 +609,7 @@ $languageStrings = array(
 	'Mobile' => 'Celular' ,
  
 	'Notify Owner' => 'Notificar Proprietário' ,
-	'Other Phone' => 'Telefone Alternativo',
+	'Other Phone' => 'Fone Alternativo',
 	'Phone' => 'Telefone Principal',
 
 	'State'=> 'Estado', 
@@ -633,12 +634,12 @@ $languageStrings = array(
 	'Sales End Date' => 'Data Final Vendas',
 
 	//Dashboard list of widgets translation
-	'Open Ticktes' => 'Tickets Abertos',
+	'Open Ticktes' => 'Chamados Abertos',
 	'LBL_SELECT_STATUS' => 'Selecionar Status',
 	'LBL_BLANK' => '-Em branco-',
 
 	//PageTitle translations
-	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM Open Source',
+	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM',
 
 	//Translations used in inventory modules for sopy address
 	'SINGLE_Accounts' => 'Organização',
@@ -672,7 +673,7 @@ $languageStrings = array(
 	//Translations used in inventory modules for sopy address
 	'SINGLE_Accounts' => 'Organização',
 	'SINGLE_Contacts' => 'Contato',
-	'HelpDesk' => 'Tickets',
+	'HelpDesk' => 'Chamados',
 	'LBL_TAG_CLOUD' => 'Tag Cloud',
 
 	'LBL_NO_RECORDS' => 'Nenhum Registro',
@@ -687,7 +688,7 @@ $languageStrings = array(
 
 	//Module Manager
 	'LBL_TOOLTIP' => 'Gestão Dicas de Contexto',
-	'LBL_MODULE_SEQUENCE_NUMBERING' => 'Numeração Sequência Módulo',
+	'LBL_MODULE_SEQUENCE_NUMBERING' => 'Numeração Sequencial',
 	'LBL_CUSTOM_FIELD_MAPPING' => 'Mapeamento Campo Customizado',
 	'LBL_WEBFORMS' => 'WebForms',
 	
@@ -711,7 +712,6 @@ $languageStrings = array(
 	'LBL_EXCEEDED' => 'Excedido',
 	'LBL_OPERATION_NOT_PERMITTED' => 'Operação não permitida',
     'LBL_MERGE' => 'Mesclar',
-	'LBL_FIND_DUPLICATES' => 'Localizar Duplicados',
 	'LBL_MERGING_CRITERIA_SELECTION' => 'Selecionar Critérios Mesclagem',
 	'LBL_AVAILABLE_FIELDS' => 'Campos Disponíveis',
 	'LBL_MERGE_RECORDS_DESCRIPTION' => 'O registro original será mantido após mesclagem. Você pode selecionar a coluna para manter o valor.
@@ -723,13 +723,13 @@ $languageStrings = array(
 	'LBL_MERGE_SELECT' => 'Selecionar Mesclagem',
 
 	//sbproducts translation
-	'LBL_BACK_TO_PRODUCTS' => 'Voltar para produtos',
-	
+	'LBL_BACK_TO_PRODUCTS' => 'Retornar para Produtos',
+
 	//Translations used for Export to Pdf
 	'Valid Date' => 'Data Validade',
 	'Phone: ' => 'Telefone: ',
-	'Issued Date' => 'Data Emissão',
-	'Shipping & Handling Charges' => 'Frete',
+	'Issued Date' => 'Data Vencimento',
+	'Shipping & Handling Charges' => 'Fretes',
 	'Shipping & Handling Tax:' => 'Imposto Frete:',
 	'Discount'=>'Desconto',
 	'Net Total' => 'Total Líquido',
@@ -745,30 +745,35 @@ $languageStrings = array(
 	'LBL_ALPHABETS' => 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z',
 
 	//Realted tab strings
-	'Service Contracts' => 'Contratos Serviços',
+	'Service Contracts' => 'Contratos',
 	'Projects' => 'Projetos',
-	'Sales Order' => 'Pedido Vendas',
-	'Purchase Order' => 'Pedido Compras',
+	'Sales Order' => 'Pedidos Vendas',
+	'Purchase Order' => 'Pedidos Compra',
 	'List and Campaigns' => 'Lista e Campanhas',
 	'Project Tasks' => 'Tarefas Projeto',
-	'Project Milestones' => 'Milestones Projeto',
-		
-	'Labels Editor' => 'Editor Rótulos',
+	'Project Milestones' => 'Milestone Projeto',
+
+	'Labels Editor' => 'Editor Etiqueta',
 	'LBL_IGNORE_EMPTY_VALUES' =>'Ignorar valores vazios',
-		
+
 	//Related tabs of Products
-	'Product Bundles' => 'Produtos Compostos',
-	'Parent Product' => 'Produto Pai',
-	
+	'Product Bundles'=>'Produto Composto',
+	'Parent Product'=>'Produto Principal',
+
 	'LBL_MANAGE_USERS' => 'Gerenciar Usuários',
 	'LBL_TRANSFER_OWNERSHIP' => 'Transferir Propriedade',
 	'LBL_SELECT_RELATED_MODULES' => 'Selecionar Módulos Relacionados',
 	'LBL_ASSIGNED_TO' => 'Designado a',
-		
+
 	//Report Detail View
 	'LBL_VIEW_DETAILS' => 'Visualizar Datalhes',
+	//Comments Field Labels for Workflow
+	'Comment' => 'Comentário',
+	'Last Comment' => 'Último Comentário',
+	'Last 5 Comments' => 'Últimos 5 Comentários',
+	'All Comments' => 'Todos os Comentários',
 
-//Missing fields
+        //Missing fields
 	'PickListDependency'=>'Dependência Lista Opções',
 	'Users'=>'Usuários',
 	'SMSNotifier'=>'Notificador SMS',
@@ -785,6 +790,40 @@ $languageStrings = array(
 	'Owner'=>'Proprietário',
 	'Commission Rate'=>'Percentual Comissão',
 	'Tax Class'=>'Categoria Imposto',
+        'SUBJECT'=>'ASSUNTO',
+        'TO'=>'PARA',
+        'BODY'=>'CORPO',
+        'BCC'=>'BCC',
+        'CC'=>'CC',
+        'FROM'=>'DE',
+        'DATE'=>'DATA',
+        //Missing Fields Right Bar Project Module
+	'Trouble Tickets'=>'Chamados',
+        //Missing Fields Project Project Module
+	'Project Task Name'=>'Nome Tarefa Projeto',
+	'Project Task Number'=>'Número Tarefa Projeto',
+	'Project Task No'=>'No. Tarefa Projeto',
+	'Related to'=>'Relacionado à', 
+	'Progress'=>'Progresso', 
+	'Start Date'=>'Data Início',
+	'Worked Hours'=>'Horas Trabalhadas', 
+	'End Date'=>'Data Final',
+	'description'=>'descrição',
+        'Project Milestone Name'=>'Nome Milestone Projeto',
+        'Milestone Date'=>'Data Milestone',
+	//Missing Fields | Field Block Recurring Invoice in SalesOrder
+        'Recurring Invoice Information'=>'Informação Faturas Recorrentes',
+        //Missing Fields Recycle Bin Module
+        'Recycle Bin'=>'Lixeira',
+        //Missing Fields Invoice Module
+        'group'=>'grupo',
+	//Missing Fields Right Bar Service Contract Module
+	'Service Requests'=>'Solicitação Serviço',
+	'Due date'=>'Data vencimento',
+	'Service Contracts' => 'Contratos',
+
+        'Is Converted From Lead'=>'Convertido do Lead',
+
 );
 
 $jsLanguageStrings = array(
@@ -936,25 +975,22 @@ $jsLanguageStrings = array(
 	'JS_ALLOWED_TO_SELECT_MAX_OF_THREE_RECORDS' => 'Você tem permissão para selecionar no máximo três registros',
 	//Notification message for dashboard widget delete
 	'JS_ARE_YOU_SURE_TO_DELETE_WIDGET' => 'Tem certeza que deseja excluir o widget',
-	'JS_DUPLICATE_ENTRIES_FOUND_FOR_THE_VALUE' => 'Duplicar entradas encontrada para o valor',
-	'JS_SELECT_RECORDS_TO_MERGE_FROM_SAME_GROUP' => 'Você tem que selecionar os registros nos mesmos grupos para mesclar',
-	'JS_SELECT_ATLEAST_TWO_RECORD_FOR_MERGING' => 'Selecionar ao menos dois registros para mesclar',
-	'JS_ALLOWED_TO_SELECT_MAX_OF_THREE_RECORDS' => 'Você tem permissão para selecionar no máximo três registros',
+	'JS_DUPLICATE_ENTRIES_FOUND_FOR_THE_VALUE' => 'Foram encontradas entradas duplicadas para o valor',
 	'JS_TOTAL_RECORDS' => 'Total registros',
-	'JS_PAGE_NOT_EXIST' => 'A página não existe',
+	'JS_PAGE_NOT_EXIST' => 'Página não existe',
 	'JS_YOU_ARE_IN_PAGE_NUMBER' => 'Você está na página número',
-	
+
 	//More currencies message
-	'JS_PLEASE_ENABLE_BASE_CURRENCY_FOR_PRODUCT' => 'Por favor, habilite a moeda padrão para o produto',
-	'JS_PLEASE_SELECT_BASE_CURRENCY_FOR_PRODUCT' => 'Por favor, selecione a moeda padrão para o produto',
-		
+	'JS_PLEASE_ENABLE_BASE_CURRENCY_FOR_PRODUCT' => 'Por favor, habilite a moeda padrão para o Produto',
+	'JS_PLEASE_SELECT_BASE_CURRENCY_FOR_PRODUCT' => 'Por favor, selecione a moeda padrão para o Produto',
+
 	//Delete Records message
-	'JS_RECORDS_ARE_GETTING_DELETED' => 'Os registros estão sendo excluídos',
-	'JS_RECORD_GETTING_DELETED' => 'Registros sendo apagados',
+	'JS_RECORDS_ARE_GETTING_DELETED' => 'O registros estão sendo excluídos',
+	'JS_RECORD_GETTING_DELETED' => 'Os registros foram excluídos',
 	'JS_NO_RESULTS_FOUND' => 'Nenhum resultado encontrado',
-	
-	'JS_RECORDS TRANSFERRED SUCCESSFULLY' => 'Os registros do proprietário foram transferidos com sucesso',
-	
+
+	'JS_RECORDS TRANSFERRED SUCCESSFULLY' => 'A propriedade dos registros foram transferidos com sucesso',
+
 	'JS_USER_EXISTS' => 'O Usuário já Existe',
-	'JS_REENTER_PASSWORDS' => 'Redigite a Senha',
+	'JS_REENTER_PASSWORDS' => 'Redigite as Senhas',
 );

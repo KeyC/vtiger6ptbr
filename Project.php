@@ -44,9 +44,4 @@ $languageStrings = array(
 	
 	//Summary View Widgets
 	'LBL_DOWNLOAD_FILE' => 'Baixar Arquivo',
-
-	//Missing Fields Right Bar | Valmir C Trindade
-	'Project Tasks'=>'Tarefas Projeto',
-	'Project Milestones'=>'Milestones Projeto',
-	'Trouble Tickets'=>'Tickets',
 );

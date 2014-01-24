@@ -45,15 +45,12 @@ $languageStrings = array(
 	'Credit Invoice' => 'Fatura Crédito' , 
 	'Paid' => 'Pago',
 
-	//Missing Fields Right Bar | Valmir C Trindade
-	'Activities'=>'Atividades',
-
 	//Translation for product not found
 	'LBL_THIS' => 'Este',
-	'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => 'foi excluído do Sistema. Por favor, remova ou substitua este item',
-	'LBL_THIS_LINE_ITEM_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_THIS_LINE_ITEM' => 'Este item da linha foi excluído do Sistema. Por favor, remova este item da linha',
+	'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => 'é excluído do Sistema. Por favor, removar ou substitua este item',
+	'LBL_THIS_LINE_ITEM_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_THIS_LINE_ITEM' => 'Este item da linha é excluído do Sistema. Por favor, remova estes itens da linha',
 );
 
 $jsLanguageStrings = array(
-	'JS_PLEASE_REMOVE_LINE_ITEM_THAT_IS_DELETED' => 'Por favor, remova o item da linha que foi excluído',
+	'JS_PLEASE_UPDATE_THE_ITEM' => 'Por favor, atualize o item',
 );

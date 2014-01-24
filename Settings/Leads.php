@@ -18,7 +18,7 @@ $languageStrings = array(
 	'LBL_MAPPING_WITH_OTHER_MODULES' => 'Mapeamento com outros Módulos',
 	'LBL_ORGANIZATIONS' => 'Organizações',
 	'LBL_CONTACTS' => 'Contatos',
-	'LBL_OPPURTUNITIES' => 'Opurtunidades',
+	'LBL_OPPURTUNITIES' => 'Oportunidades',
 	'LBL_ADD_MAPPING' => 'Adicionar Mapeamento',
 	'LBL_NONE' => 'Nenhum',
 	
@@ -63,5 +63,5 @@ $jsLanguageStrings = array(
 	'JS_percent' => 'Percentual',
 	'JS_skype' => 'Skype',
 	'JS_None' => 'Nada',
-	'JS_integer' => 'Inteiro',
+	'JS_integer' => 'Número Inteiro',
 );

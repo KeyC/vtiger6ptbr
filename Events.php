@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translated to Brazilian Portuguese - 24/11/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 
 /* NOTE: Should be inline with Calendar language translation but few variations */
@@ -91,8 +91,8 @@ $languageStrings = array(
 	'LBL_RECORDS_LIST' => 'Visualizar Lista',
 	'LBL_CALENDAR_VIEW'=> 'Visualizar Agenda' ,
 
-    'LBL_INVITE_USER_BLOCK' => 'Convidar',
+    'LBL_INVITE_USER_BLOCK' => 'Convite',
     'LBL_INVITE_USERS' => 'Convidar Usuários',
-	'INVITATION'=> 'Convite ',
+	'INVITATION'=>' Convite ',
 
 );

@@ -67,6 +67,7 @@ $languageStrings = array(
 	//Leads Custom Field Mapping
 	'LBL_CUSTOM_FIELD_MAPPING' => 'Editar Mapeamento Campo',
 	'LBL_WEBFORMS' => 'Configurar Webforms',
+	'LBL_LEAD_SOURCE'=> 'Fonte Lead',
 
 	//Missing Fields Right Bar | Valmir C Trindade
 	'Activities'=>'Atividades',

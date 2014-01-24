@@ -37,6 +37,7 @@ $languageStrings = array(
 	'LBL_ASSIGN_VALUES_TO_ROLES' => 'Atribuir Valores para Funções',
 	'LBL_SELECTED_VALUES' => 'Valores Selecionados',
     'NO_PICKLIST_FIELDS'=> 'não existe nenhum campo Lista de Opções',
+	'LBL_NON_EDITABLE_PICKLIST_VALUES' => 'Valores não Editáveis',
 );
 $jsLanguageStrings = array(
 	//PickList 

@@ -39,7 +39,7 @@ $languageStrings = array(
 	//DetailView Actions
 	'LBL_DOWNLOAD_FILE'=> 'Download Arquivo', 
 	'LBL_CHECK_FILE_INTEGRITY' => 'Checar integridade arquivo',
-	'LBL_EMAIL_FILE_AS_ATTACHMENT' => 'Arquivo Email como anexo',
+	'LBL_EMAIL_FILE_AS_ATTACHMENT' => 'Anexar arquivo ao Email',
 
 	//EditView
 	'LBL_INTERNAL' => 'Interno' , 
@@ -71,8 +71,5 @@ $jsLanguageStrings = array(
 	//Move documents confirmation message
 	'JS_ARE_YOU_SURE_YOU_WANT_TO_MOVE_DOCUMENTS_TO' => 'Tem certeza que deseja mover o(s) arquivo(s) para', 
 	'JS_FOLDER'=> 'pasta', 
-	'JS_OPERATION_DENIED'=> 'Operação Negada',
-	'JS_FOLDER_IS_NOT_EMPTY' => 'A pasta não está vazia',
-	'JS_SPECIAL_CHARACTERS' => 'Caracteres Especiais como',
-	'JS_NOT_ALLOWED' => 'não são permitidos',
+	'JS_OPERATION_DENIED'=> 'Operação Negada', 
 );

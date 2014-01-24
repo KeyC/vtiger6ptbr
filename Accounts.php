@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translated to Brazilian Portuguese - 23/11/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -63,5 +63,6 @@ $languageStrings = array(
 $jsLanguageStrings = array(
 	'LBL_RELATED_RECORD_DELETE_CONFIRMATION' => 'Tem certeza que deseja apagar?',
 	'LBL_DELETE_CONFIRMATION'=> 'Ao apagar esta Organização serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que certeza que deseja apagar esta Organização?',
-	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar esta(s) Organização(ões) serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que deseja apagar o(s) registro(s) selecionado(s)?'
+	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar esta(s) Organização(ões) serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que deseja apagar o(s) registro(s) selecionado(s)?',
+	'JS_DUPLICTAE_CREATION_CONFIRMATION' => 'O nome da Organização já existe. Deseja criar um registro duplicado?'
 );

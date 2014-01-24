@@ -42,6 +42,7 @@ $languageStrings = array(
     'LBL_VIEW_ALL_DESC' => 'Permite visualizar todas informações dos módulos',
     'LBL_EDIT_ALL_DESC' => 'Permite editar todas as informações dos módulos',
 	'LBL_DUPLICATES_EXIST' => 'Duplicar Perfil Existente',	
+
 );
 
 $jsLanguageStrings = array(

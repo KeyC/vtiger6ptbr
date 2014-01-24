@@ -48,6 +48,7 @@ $languageStrings = array(
 	'LBL_DUPLICATE_FIELD_EXISTS' => 'Duplicar Campo Existente',
 	'LBL_WRONG_FIELD_TYPE' => 'Tipo de Campo Errado',
 	'LBL_ROLE_BASED_PICKLIST' => 'Lista de Opções Baseada em Função',
+	'LBL_CLICK_HERE_TO_EDIT' => 'Clique aqui para editar',
 
 	//Field Types
 	'Text'=>'Texto',
@@ -86,5 +87,5 @@ $jsLanguageStrings = array(
 	'JS_SPECIAL_CHARACTERS' => 'Caracteres Especiais como',
 	'JS_NOT_ALLOWED' => 'não são permitidos',
 	'JS_FIELD_SEQUENCE_UPDATED' => 'Sequência de Campos Atualizada',
-	'JS_DUPLICATES_VALUES_FOUND' => 'Foram encontrados Valores Duplicados'
+	'JS_DUPLICATES_VALUES_FOUND' => 'Foram encontrados Valores duplicados'
 );

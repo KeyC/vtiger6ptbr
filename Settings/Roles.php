@@ -28,12 +28,12 @@ $languageStrings = array(
 	'LBL_ASSIGN_EXISTING_PRIVILEGES' => 'Atribuir privilégios a partir de um Perfil existente',
 	'LBL_PRIVILEGES' => 'Privilégios',
 	'LBL_DUPLICATES_EXIST' => 'Duplicar Função Existente',
-
+	
 	//Assign Records to
-	'LBL_CAN_ASSIGN_RECORDS_TO' => 'Pode Desginar Registros para',
+	'LBL_CAN_ASSIGN_RECORDS_TO' => 'Pode Designar Registros para',
 	'LBL_ALL_USERS' => 'Todos os Usuários',
-	'LBL_USERS_WITH_LOWER_LEVEL' => 'Os Usuários possuem Funções Subordinadas',
-	'LBL_USERS_WITH_SAME_OR_LOWER_LEVEL' => 'Os Usuários possuem a mesma Função ou Função Subordinada',
+	'LBL_USERS_WITH_LOWER_LEVEL' => 'Usuários com Funções Subordinadas',
+	'LBL_USERS_WITH_SAME_OR_LOWER_LEVEL' => 'Usuários possuem a mesma Função ou Função Subordinada',
 );
 
 $jsLanguageStrings = array(

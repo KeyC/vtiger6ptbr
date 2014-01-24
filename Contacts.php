@@ -49,7 +49,7 @@ $languageStrings = array(
 	'Other Phone' => 'Telefone Alternativo',
 	'Email' => 'Email',
 	'Secondary Email' => 'Email Alternativo',
-	'Contact ID' => 'Cód. Contato',
+	'Contact Id' => 'No. Contato',
 
 	//Added for Picklist Values
 	'Mr.'=> 'Sr.' , 
@@ -60,12 +60,16 @@ $languageStrings = array(
 
 	'User List'=> 'Lista Usuário',
 
-	//Missing Fields Right Bar | Valmir C Trindade
+	//Missing Fields | Valmir C Trindade
 	'Sales Order'=>'Pedido Vendas',
 	'Activities'=>'Atividades',
-	'Service Contracts'=>'Contratos Serviços',
+	'Service Contracts'=>'Contratos',
 	'Projects'=>'Projetos',
 	'Purchase Order'=>'Pedido Compras',
+        'Support End Date'=>'Data Final Suporte',
+        'Mailing Po Box'=>'Caixa Postal',
+        'Is Converted From Lead'=>'Convertido do Lead',
+        'Other Po Box'=>'Caixa Postal Alternativo',
 );
 
 $jsLanguageStrings = array(

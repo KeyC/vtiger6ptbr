@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translated to Brazilian Portuguese - 19/02/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -41,7 +41,7 @@ $languageStrings = array(
 
 	//Added for existing Picklist Entries 
 
-	'Webinar' => 'Seminário via Web' , 
+	'Webinar' => 'Webinar' , 
 	'Referral Program' => 'Programa Referência', 
 	'Advertisement' => 'Propaganda', 
 	'Banner Ads' => 'Banners', 

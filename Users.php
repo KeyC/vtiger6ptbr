@@ -5,7 +5,7 @@
  * The Original Code is:vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
- * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 14/07/2013 - www.ttcasolucoes.com.br
+ * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 30/11/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
 $languageStrings = array(
 	'LBL_ADD_RECORD' => 'Adicionar Usuário',
@@ -30,8 +30,8 @@ $languageStrings = array(
 	'Default Lead View'=> 'Padrão Visualização Lead' , 
 	'Title'=> 'Cargo' , 
 	'Office Phone' => 'Fone Escritório',
-	'Department' => 'Departamento', 
-	'Reports To' => 'Reporta-se à' , 
+	'Department' => 'Departmento',
+	'Reports To' => 'Reporta-se a',
 	'Yahoo id' => 'ID Yahoo', 
 	'Home Phone' => 'Fone Residencial', 
 	'User Image' => 'Imagem Usuário' , 
@@ -58,8 +58,7 @@ $languageStrings = array(
 	'LBL_PROFILE_TO_BE_DELETED'=> 'Perfil a ser Apagado', 
 	'INTERNAL_MAIL_COMPOSER' => 'Editor Interno de Mensagens' , 
 	'Asterisk Extension' => 'Extensão Asterisk', 
-	'Receive Incoming Calls' => 'Receber Chamadas',
-	'Reminder Interval'=> 'Intervalo Lembrete', 
+	' Receive Incoming Calls' => 'Receber Chamadas',
 	'Webservice Access Key'=> 'Chave Acesso', 
 	'Language' => 'Idioma', 
 	'Theme'=> 'Tema', 
@@ -191,11 +190,11 @@ $languageStrings = array(
 	'ForgotPassword' => 'Esqueceu a Senha',
 	'LBL_CONNECT_WITH_US' => 'Conecte-se a NóS',
 	'LBL_GET_MORE' => 'Obtenha mais do Vtiger',
+	
+	'LBL_TRANSFER_RECORDS_TO_USER' => 'Transferir registro para o Usuário',
+	'LBL_USER_TO_BE_DELETED' => 'Usuário para ser Apagado',
 
-	'LBL_TRANSFER_RECORDS_TO_USER' => 'Transferir registros para Usuário',
-	'LBL_USER_TO_BE_DELETED' => 'Usuário a ser Apagado',
-		
-//Missing Fields
+//Missing Fields User Module [My Preferences]
 	'Starting Day of the week'=>'Dia Início Semana',
 	'Day starts at'=>'Horário Início dia',
 	'Default Record View'=>'Visualização Padrão',
@@ -219,6 +218,14 @@ $languageStrings = array(
 	'Thursday' => 'Quinta-feira',
 	'Friday' => 'Sexta-feira',
 	'Saturday' => 'Sábado',
+        'Left Panel Hide'=>'Ocultar Painel a Esquerda',
+        'Row Height'=>'Altura da Linha',
+        'Other Email'=>'Email Alternativo',
+        'Secondary Email'=>'Email Secundário',
+        'Secondary Phone'=>'Telefone Secundário',
+        'wide'=>'larga',
+        'medium'=>'média',
+        'narrow'=>'estreita',
 
 );
 

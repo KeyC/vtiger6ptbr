@@ -34,9 +34,6 @@ $languageStrings = array(
 
 	'Received Shipment'=> 'Entrega Recebida',
 
-	//Fields Missing Right Bar | Valmir C Trindade
-	'Activities'=>'Atividades',
-
 	//Translation for product not found
 	'LBL_THIS' => 'This',
 	'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => 'é excluído do Sistema. Por favor, remova ou substitua este item',
@@ -45,5 +42,5 @@ $languageStrings = array(
 );
 
 $jsLanguageStrings = array(
-	'JS_PLEASE_REMOVE_LINE_ITEM_THAT_IS_DELETED' => 'Por favor, remova o item da linha que é excluída',
+	'JS_PLEASE_REMOVE_LINE_ITEM_THAT_IS_DELETED' => 'Por favor, remova o item da linha que será excluída',
 );

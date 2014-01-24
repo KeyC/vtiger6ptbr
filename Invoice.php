@@ -32,13 +32,10 @@ $languageStrings = array(
 	//Added for existing Picklist Entries
 
 	'Sent' => 'Enviada' , 
-	'Credit Invoice' => 'Creditar Fatura' , 
+	'Credit Invoice' => 'A Receber' , 
 	'Paid' => 'Paga', 
 	'AutoCreated'=> 'Auto Criada' , 
 	'Cancel' => 'Cancelar',
-
-	//Missing Fields Right Bar | Valmir C Trindade
-	'Activities'=>'Atividades',
 
 	//Translation for product not found
 	'LBL_THIS' => 'This',

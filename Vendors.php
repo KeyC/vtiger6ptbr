@@ -37,9 +37,6 @@ $languageStrings = array(
 	'306-Internet Sales' => '306-Vendas Internet' , 
 	'307-Service-Hardware Labor' => '307-Serviço-Lab Hardware' , 
 	'308-Sales-Books'=> '308-Vendas-Livros' ,
-
-	//Fields Missing Right Bar | Valmir C Trindade
-	'Purchase Order'=>'Pedido Compras',
 );
 
 $jsLanguageStrings = array(

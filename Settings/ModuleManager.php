@@ -43,4 +43,8 @@ $languageStrings = array(
 	'LBL_IMPORTED_MODULE' => ' o módulo foi importado com sucesso.',
 	'LBL__IMPORTING_MODULE' => 'Importando Módulo',
 
+	'LBL_UPDATE_MODULE_FROM_FILE' => 'Atualizar Módulo a partir do Arquivo',
+	'LBL_UPDATED_MODULE' => ' o Módulo fou atualizado com sucesso.',
+	'LBL__UPDATING_MODULE' => 'Atualizando Módulo',
+
 );
