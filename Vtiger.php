@@ -821,6 +821,10 @@ $languageStrings = array(
 	'Service Requests'=>'Solicitação Serviço',
 	'Due date'=>'Data vencimento',
 	'Service Contracts' => 'Contratos',
+	//Missing Fields - Select Product/Service Pop up in SalesOrder
+	'LBL_NOT_A_BUNDLE' => 'Não é um Pacote',
+        'Unit Price'=>'Preço Unitário',
+        'Action'=>'Ação',
 
         'Is Converted From Lead'=>'Convertido do Lead',
 
