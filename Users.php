@@ -226,6 +226,7 @@ $languageStrings = array(
         'wide'=>'larga',
         'medium'=>'média',
         'narrow'=>'estreita',
+        'Reminder Interval'=>'Intervalo Lembrete',
 
 );
 

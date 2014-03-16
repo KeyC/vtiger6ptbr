@@ -19,12 +19,12 @@ $languageStrings = array(
 	
 	//Field Labels
 	'Potential No' => 'No. Oportunidade', 
-	'Amount' => 'Valor Fechamento', 
+	'Amount' => 'Valor', 
 	'Next Step'=> 'Próximo Passo', 
 	'Sales Stage'=> 'Estágio da Venda', 
 	'Probability'=> 'Probabilidade', 
 	'Campaign Source'=> 'Fonte Campanha', 
-	'Forecast Amount'=> 'Valor Previsto' ,
+	'Forecast Amount'=> 'Valor Previsto' , 
 	'Related To' => 'Nome Organização',
 	'Contact Name' => 'Nome Contato',
 	
